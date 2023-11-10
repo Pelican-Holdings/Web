@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
 
         <div className="border bg-gray-20" />
-        <p className="regular-14 w-full text-center text-gray-30">2023 Hilink | All rights reserved</p>
+        <p className="regular-14 w-full text-center text-gray-30">2023 Pelican Holdings | All rights reserved</p>
       </div>
     </footer>
   )

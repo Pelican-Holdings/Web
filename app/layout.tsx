@@ -4,6 +4,7 @@ import './globals.css'
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
+import GoUpButton from '@/components/GoUpButton';
 
 export const metadata: Metadata = {
   title: 'Pelican Holdings',
@@ -23,6 +24,7 @@ export default function RootLayout({
         <main className="relative overflow-hidden">
           {children}
         </main>
+        <GoUpButton />
         <Footer />
       </body>
     </html>
