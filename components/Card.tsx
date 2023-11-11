@@ -3,7 +3,7 @@ import Image from "next/image";
 
 interface CardProps {
   title: string;
-  content: string;
+  content: string[];
   imageUrl: string;
 }
 
@@ -23,7 +23,11 @@ const Card = ({ title, content, imageUrl }: CardProps) => {
 
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{title}</div>
-        <p className="text-gray-700 text-base">{content}</p>
+        {content.map((contentData, index) => (
+          <p key={index} className="text-gray-700 text-base">
+            {contentData}
+          </p>
+        ))}
       </div>
       {/* <div className="px-6 pt-4 pb-2">
         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">

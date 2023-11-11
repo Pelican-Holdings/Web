@@ -3,7 +3,7 @@ import Image from "next/image";
 const Header = () => {
   return (
     <div className="relative">
-      <header className="w-full z-40 bg-main invisible sm:visible">
+      <header className="w-full z-40 bg-main">
         <div className="max-w-[1440px] mx-auto sm:px-16 px-6 py-3 bg-transparent text-white">
           <Image
             src="/barrel.png"
