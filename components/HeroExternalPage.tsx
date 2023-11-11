@@ -20,7 +20,7 @@ const HeroExternalPage = ({ imageUrl, content }: HeroExternalPageProps) => {
             className="transition-transform transform scale-100"
           />
         </div>
-        <div className="absolute text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-4xl md:text-6xl font-bold">
+        <div className="absolute text-white top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-4xl md:text-6xl font-bold text-center">
           {content}
         </div>
       </div>

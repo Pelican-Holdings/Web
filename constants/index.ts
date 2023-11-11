@@ -1,3 +1,5 @@
+import { Product } from "@/types";
+
 // NAVIGATION
 export const NAV_LINKS = [
   { href: '/', key: 'home', label: 'Home' },
@@ -83,3 +85,83 @@ export const SOCIALS = {
     '/wordpress.svg',
   ],
 };
+
+export const products: Product[] = [
+  {
+    id: 1,
+    name: 'Bitumen 80/100',
+    price: 19.99,
+    image: 'https://res.cloudinary.com/midefulness/image/upload/v1699718014/Pelican%20Holdings/Bitumen_80_sdrg96.jpg',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    id: 2,
+    name: 'Bitumen 60/70',
+    price: 19.99,
+    image: 'https://res.cloudinary.com/midefulness/image/upload/v1699297500/Pelican%20Holdings/WhatsApp-Image-2020-08-20-at-19.37.07_rb2wbj.jpg',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    id: 3,
+    name: 'CSS 1-(Cationic Slow Setting1)',
+    price: 19.99,
+    image: 'https://res.cloudinary.com/midefulness/image/upload/v1699297498/Pelican%20Holdings/WhatsApp-Image-2020-08-05-at-17.21.55-2_nmcr9p.jpg',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    id: 4,
+    name: 'CRS 1-(Cationic Rapid Setting1)',
+    price: 19.99,
+    image: 'https://res.cloudinary.com/midefulness/image/upload/v1699297500/Pelican%20Holdings/WhatsApp-Image-2020-08-20-at-17.32.27_ym67h9.jpg',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    id: 5,
+    name: 'CRS 2-(Cationic Rapid Setting2)',
+    price: 19.99,
+    image: 'https://res.cloudinary.com/midefulness/image/upload/v1699297498/Pelican%20Holdings/WhatsApp-Image-2020-08-05-at-17.21.55-1-1_vxiod6.jpg',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    id: 6,
+    name: 'MC 30-(Medium Curing 30)',
+    price: 19.99,
+    image: 'https://res.cloudinary.com/midefulness/image/upload/v1699297499/Pelican%20Holdings/WhatsApp-Image-2020-08-05-at-17.21.57-1_ns3jqs.jpg',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    id: 7,
+    name: 'MC 70-(Medium Curing 70)',
+    price: 19.99,
+    image: 'https://res.cloudinary.com/midefulness/image/upload/v1699297499/Pelican%20Holdings/WhatsApp-Image-2020-08-05-at-17.21.57_tjoynl.jpg',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    id: 8,
+    name: 'Water Proof Coating',
+    price: 19.99,
+    image: 'https://res.cloudinary.com/midefulness/image/upload/v1699297502/Pelican%20Holdings/WhatsApp-Image-2020-08-20-at-19.37.09_pyc3nq.jpg',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    id: 9,
+    name: 'Cold Pre Mix',
+    price: 19.99,
+    image: 'https://res.cloudinary.com/midefulness/image/upload/v1699297502/Pelican%20Holdings/WhatsApp-Image-2020-08-21-at-23.51.23_lkkrrw.jpg',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    id: 10,
+    name: 'Solid and Hollow Cement Block',
+    price: 19.99,
+    image: 'https://res.cloudinary.com/midefulness/image/upload/v1699297499/Pelican%20Holdings/WhatsApp-Image-2020-08-06-at-09.19.53-1_mxvr07.jpg',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    id: 11,
+    name: 'Paving Blocks/Interlocks',
+    price: 19.99,
+    image: 'https://res.cloudinary.com/midefulness/image/upload/v1699297501/Pelican%20Holdings/WhatsApp-Image-2020-08-06-at-09.19.54_ut0ktn.jpg',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+];

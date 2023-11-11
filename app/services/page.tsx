@@ -1,69 +1,45 @@
 "use client";
 import Image from "next/image";
 import HeroExternalPage from "@/components/HeroExternalPage";
+import ConstructionServices from "@/components/ConstructionServices";
 
 const page = () => {
   return (
     <div>
       <HeroExternalPage
-        imageUrl="https://res.cloudinary.com/midefulness/image/upload/v1657441707/cld-sample-5.jpg"
+        imageUrl="/backgrounds/our-services.jpg"
         content="Service Page"
       />
-      <div className="container mx-auto py-8 relative">
-        <h1 className="text-3xl font-bold mb-4">Our Services</h1>
-
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold mb-2">Decanting Plant</h2>
-          <p>
-            Our plant is supported by two modern decanting plants, and we are
-            able to produce bulk 60/70 and 80/100 Bitumen with the total
-            capacity of 100,000 liters per day.
+      <div className="padding-container mx-auto py-8 relative">
+        <div className="py-10">
+          <h1 className="text-2xl md:text-4xl font-bold text-center pb-6 text-main">
+            NATURE OF BUSINESS
+          </h1>
+          <p className="text-gray-600">
+            <span className="font-semibold">PELICAN HOLDINGS (PVT) LTD</span> is
+            a limited liability company which registered under the companies act
+            in Sri Lanka.{" "}
+            <span className="font-semibold">PELICAN HOLDINGS</span> is engaging
+            in manufacturing and supplying of construction materials including
+            Bitumen and bituminous product, cements blocks, cements and concrete
+            curbs, interlocks pawing blocks to the construction industry.We also
+            provide bitumen based water proof solutions, landscaping materials,
+            road construction and landscaping services tailor-made to the
+            customer needs.
           </p>
-        </section>
+        </div>
 
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold mb-2">Storage Facilities</h2>
-          <p>
-            Our plant consists of bitumen and Emulsion storage tanks, and we are
-            able to store more than 400,000 liters of bitumen, cut back bitumen,
-            and bituminous emulsion in barrel and liquid form.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold mb-2">Delivery and Transport</h2>
-          <p>
-            Our products are well known in the market, and we are geared to
-            deliver the products at any time of the day to any part of the
-            country. We are equipped with six numbers of 13,500 liters bowsers,
-            four numbers of 20,000 liters bowsers for bitumen transport, two
-            units of 6,000 liters emulsion transport bowsers, and four numbers
-            of ten-wheel trucks for barrel transportation.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold mb-2">Available Products</h2>
-          <p>Products are available in Barrel and Bulk form.</p>
-          <ul>
-            <li>
-              80/100 & 60/70 bitumen - Available in 180Ltr drums and
-              4,000-20,000 Ltr in bulk form
-            </li>
-            <li>
-              CSS 1, CRS 1, CRS 2, MC 30, and MC 70 - Available in 200Ltr drums
-              and 6,000-13,500Ltr in bulk form
-            </li>
-          </ul>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-xl font-semibold mb-2">Construction Services</h2>
-          <p>
-            Construction of public and domestic roads, car parks, office and
-            factory premises.
-          </p>
-        </section>
+        <div className="py-4">
+          <h1 className="text-2xl md:text-4xl font-bold text-center pb-10 text-main">
+            OUR PLANT, EQUIPMENTS AND SERVICE
+          </h1>
+          <div className="flex flex-col md:flex-row padding-container mb-4">
+            <div className="hidden md:block md:basis-2/5"></div>
+            <div className="basis-100 md:basis-3/5">
+              <ConstructionServices />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
