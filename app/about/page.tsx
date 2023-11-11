@@ -1,8 +1,20 @@
 "use client";
 
+import AboutUsImages from "@/components/AboutUsImages";
+import CompanyInfo from "@/components/CompanyInfo";
+import ContactUsBanner from "@/components/ContactUsBanner";
 import HeroExternalPage from "@/components/HeroExternalPage";
+import NatureOfBusiness from "@/components/NatureOfBusiness";
+import ProductCarousel from "@/components/ProductCarousel";
+import {
+  companyMission,
+  companyPassion,
+  companyValues,
+  companyVision,
+} from "@/constants";
 
 const page = () => {
+  const imageUrls = ['/backgrounds/our-services.jpg', '/backgrounds/our-services.jpg', '/backgrounds/our-services.jpg'];
   return (
     <div>
       <HeroExternalPage
@@ -12,40 +24,32 @@ const page = () => {
       <div className="padding-container mx-auto py-8 relative">
         <div className="py-4">
           <div className="flex flex-col md:flex-row padding-container mb-4">
-            <div className="hidden md:block md:basis-2/5"></div>
-            <div className="basis-100 md:basis-3/5">
-              <div className="flex flex-col">
-                <div className="text-xl text-secondary font-semibold pb-4">
-                  NATURE OF BUSINESS
-                </div>
-                <div className="font-bold pb-8 text-main flex flex-row">
-                  <div className="text-2xl md:text-4xl basis-3/4">
-                    Our{" "}
-                    <span className="text-secondary">passion to deliver</span>{" "}
-                    quality products...
-                  </div>
-                  <div>
-                    <div className="text-lg basis-1/4 inline-block p-2 px-4 rounded-full bg-main text-white">
-                      Pelican Holdings
-                    </div>
-                  </div>
-                </div>
+            <div className="hidden md:block md:basis-2/5">
+              <AboutUsImages imageUrls={imageUrls} />
+            </div>
 
-                <div className="text-gray-500">
-                  PELICAN HOLDINGS (PVT) LTD is a limited liability company
-                  which registered under the companies act in Sri Lanka. PELICAN
-                  HOLDINGS is engaging in manufacturing and supplying of
-                  construction materials including Bitumen and bituminous
-                  product, cements blocks, cements and concrete curbs,
-                  interlocks pawing blocks to the construction industry. We also
-                  provide bitumen based water proof solutions, landscaping
-                  materials, road construction and landscaping services
-                  tailor-made to the customer needs
-                </div>
-              </div>
+            <div className="basis-100 md:basis-3/5">
+              <NatureOfBusiness />
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="py-3 hidden md:block">
+        <ContactUsBanner />
+      </div>
+
+      <div className="py-3">
+        <CompanyInfo
+          vision={companyVision}
+          mission={companyMission}
+          passion={companyPassion}
+          values={companyValues}
+        />
+      </div>
+
+      <div className="py-3">
+        <ProductCarousel />
       </div>
     </div>
   );

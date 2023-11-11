@@ -158,3 +158,15 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+.clip-shape-1 {
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+}
+
+.clip-shape-2 {
+  clip-path: circle(50% at 50% 50%);
+}
+
+.clip-shape-3 {
+  clip-path: inset(0% 0% 0% 0% round 50% 50%);
+}
