@@ -52,25 +52,24 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About Hilink',
-      'Press Releases',
-      'Environment',
-      'Jobs',
-      'Privacy Policy',
+      'Home',
+      'About Us',
+      'Services',
+      'Products',
       'Contact Us',
     ],
   },
   {
-    title: 'Our Community',
-    links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+    title: 'Our Services',
+    links: ['Decanting Plant', 'Storage Facilities', 'Delivery and Transport','1','2'],
   },
 ];
 
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Admin Officer', value: '123-456-7890' },
-    { label: 'Email Officer', value: 'hilink@akinthil.com' },
+    { label: 'Office', value: '(+94)76 626 9150' },
+    { label: 'Email', value: 'holdingspelican@gmail.com' },
   ],
 };
 

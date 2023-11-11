@@ -17,7 +17,7 @@ const Card = ({ title, content, imageUrl, isEmail }: CardProps) => {
 
   return (
     <div className="flex flex-col sm:flex-row">
-      <div className="w-62 md:w-80 h-67 md:h-82 rounded overflow-hidden shadow-lg text-center border-solid border-2 gray-300">
+      <div className="w-60 md:w-80 h-67 md:h-82 rounded overflow-hidden shadow-lg text-center border-solid border-2 gray-300 bg-white">
         <div className="flex justify-center">
           <Image
             src={imageUrl}
