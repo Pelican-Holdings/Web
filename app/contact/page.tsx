@@ -11,7 +11,7 @@ const page = () => {
         content="Contact Us"
       />
       <div className="container mx-auto py-16 relative">
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 justify-items-center gap-8">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 justify-items-center gap-8 md:gap-2">
           <div className="order-1">
             <Card
               title="Our Phone"
@@ -20,14 +20,16 @@ const page = () => {
                 "Office-0112450649",
                 "Factory-(+94)714818264",
               ]}
-              imageUrl=""
+              imageUrl="/contactUs/phone-call.png"
+              isEmail={false}
             />
           </div>
           <div className="order-2">
             <Card
               title="Our Mail Box"
               content={["holdingspelican@gmail.com"]}
-              imageUrl=""
+              imageUrl="/contactUs/mail.png"
+              isEmail={true}
             />
           </div>
           <div className="order-3">
@@ -37,7 +39,8 @@ const page = () => {
                 "(Office)No. 27/A/2, Ranasinghe Road,Ja-Ela,Sri Lanka",
                 "(Factory)No.209/7 , Pelahela, Dekatana,Sri Lanka.",
               ]}
-              imageUrl=""
+              imageUrl="/contactUs/location.png"
+              isEmail={false}
             />
           </div>
         </div>

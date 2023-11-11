@@ -5,41 +5,43 @@ interface CardProps {
   title: string;
   content: string[];
   imageUrl: string;
+  isEmail: boolean;
 }
 
-const Card = ({ title, content, imageUrl }: CardProps) => {
-  return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg text-center border-solid border-2 gray-300">
-      {/* <img className="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains" /> */}
-      <div className="flex justify-center">
-        <Image
-          src="https://res.cloudinary.com/midefulness/image/upload/v1699297508/Pelican%20Holdings/3030953-scaled_lbs21l.jpg"
-          alt="logo"
-          width={48}
-          height={48}
-          className="mx-auto pt-3"
-        />
-      </div>
+const Card = ({ title, content, imageUrl, isEmail }: CardProps) => {
+  const email = content[0];
 
-      <div className="px-6 py-4">
-        <div className="font-bold text-xl mb-2">{title}</div>
-        {content.map((contentData, index) => (
-          <p key={index} className="text-gray-700 text-base">
-            {contentData}
-          </p>
-        ))}
+  const openEmailClient = () => {
+    window.location.href = `mailto:${email}`;
+  };
+
+  return (
+    <div className="flex flex-col sm:flex-row">
+      <div className="w-62 md:w-80 h-67 md:h-82 rounded overflow-hidden shadow-lg text-center border-solid border-2 gray-300">
+        <div className="flex justify-center">
+          <Image
+            src={imageUrl}
+            alt="logo"
+            width={100}
+            height={100}
+            className="mx-auto pt-6 pb-2"
+          />
+        </div>
+
+        <div className="px-6 py-5">
+          <div className="font-bold text-xl mb-2 pb-2">{title}</div>
+          {content.map((contentData, index) => (
+            <p
+              key={index}
+              className="text-gray-700 text-base pb-2"
+              onClick={isEmail ? openEmailClient : undefined}
+              style={isEmail ? { cursor: "pointer", fontWeight: "normal", transition: "font-weight 0.3s" } : {}}
+            >
+              {contentData}
+            </p>
+          ))}
+        </div>
       </div>
-      {/* <div className="px-6 pt-4 pb-2">
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-          #photography
-        </span>
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-          #travel
-        </span>
-        <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-          #winter
-        </span>
-      </div> */}
     </div>
   );
 };
