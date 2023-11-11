@@ -83,8 +83,8 @@ const Navbar = () => {
         <Button
           type="button"
           title="Contact Us"
-          icon="/user.svg"
-          variant="btn_dark_green"
+          icon="/navbar/telephone.png"
+          variant="btn_dark_blue"
         />
       </div>
     </nav>

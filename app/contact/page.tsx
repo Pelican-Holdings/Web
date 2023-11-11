@@ -4,6 +4,7 @@ import Card from "@/components/Card";
 import ContactForm from "@/components/ContactForm";
 import ContactInfo from "@/components/ContactInfo";
 import HeroExternalPage from "@/components/HeroExternalPage";
+import GoogleMap from "@/components/GoogleMap";
 import Image from "next/image";
 
 const page = () => {
@@ -58,6 +59,11 @@ const page = () => {
           <div className="hidden md:block md:basis-2/5">
             <ContactInfo />
           </div>
+        </section>
+
+        {/* Google Map */}
+        <section>
+          <GoogleMap />
         </section>
       </div>
     </div>
