@@ -170,3 +170,7 @@ body {
 .clip-shape-3 {
   clip-path: inset(0% 0% 0% 0% round 50% 50%);
 }
+
+.slider-transition {
+  transition: background-color 200ms ease-in-out;
+}
