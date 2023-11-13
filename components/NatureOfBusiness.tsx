@@ -6,13 +6,13 @@ const NatureOfBusiness = () => {
       <div className="text-xl text-secondary font-semibold pb-4">
         NATURE OF BUSINESS
       </div>
-      <div className="font-bold pb-8 text-main flex flex-row">
+      <div className="font-bold pb-8 text-main flex flex-row items-center">
         <div className="text-2xl md:text-4xl basis-3/4">
           Our <span className="text-secondary">passion to deliver</span> quality
           products...
         </div>
         <div>
-          <div className="text-lg basis-1/4 inline-block p-2 px-4 rounded-full bg-main text-white">
+          <div className="text-md md:text-lg basis-1/4 inline-block p-2 px-4 rounded-full bg-main text-white text-center">
             Pelican Holdings
           </div>
         </div>

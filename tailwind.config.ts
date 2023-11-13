@@ -53,6 +53,9 @@ module.exports = {
         'feature-contact-24-bg': "url('https://res.cloudinary.com/midefulness/image/upload/v1699882113/Pelican%20Holdings/backgrounds/contact-us-24_nuc8w7.png')",
         pattern: "url('https://res.cloudinary.com/midefulness/image/upload/v1699884560/Pelican%20Holdings/tailwindCssBackground/pattern_swjjuk.png')",
         'pattern-2': "url('https://res.cloudinary.com/midefulness/image/upload/v1699884562/Pelican%20Holdings/tailwindCssBackground/pattern-bg_o734gb.png')",
+        'company-profile-bg':"url('https://res.cloudinary.com/midefulness/image/upload/c_fill,w_2000,h_1125,ar_16:9,g_auto/v1699906767/Pelican%20Holdings/Construction-amico_vuebn5.png')",
+        'camp-bg1':"url('https://res.cloudinary.com/midefulness/image/upload/v1699907653/Pelican%20Holdings/3377_ldbhzx.jpg')",
+        'camp-bg2':"url('https://res.cloudinary.com/midefulness/image/upload/v1699907820/Pelican%20Holdings/23598_p3fwhc.jpg')",
       },
       screens: {
         xs: '400px',

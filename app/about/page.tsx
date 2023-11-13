@@ -21,9 +21,9 @@ const page = () => {
         imageUrl="https://res.cloudinary.com/midefulness/image/upload/v1699723800/Pelican%20Holdings/construction-workers-yellow-vests-vests-raise-their-hands-air_vntuhp.jpg"
         content="About Us"
       />
-      <div className="padding-container mx-auto py-8 relative">
-        <div className="py-4">
-          <div className="flex flex-col md:flex-row padding-container mb-4">
+      <div className="padding-container mx-auto pt-12 pb-4 md:pt-16 md:mt-2 md:pb-0 relative">
+        <div className="py-2 md:py-2">
+          <div className="flex flex-col md:flex-row padding-container">
             <div className="hidden md:block md:basis-2/5">
               <AboutUsImages imageUrls={imageUrls} />
             </div>
@@ -35,11 +35,11 @@ const page = () => {
         </div>
       </div>
 
-      <div className="py-3 hidden md:block">
+      <div className="pb-3 hidden md:block">
         <ContactUsBanner />
       </div>
 
-      <div className="py-3">
+      <div className="pb:3 mb-6 md:mb-0 md:py-3">
         <CompanyInfo
           vision={companyVision}
           mission={companyMission}

@@ -7,9 +7,11 @@ const CompanyProfile = () => {
         {/* <h1 className="text-2xl md:text-4xl font-bold text-center pb-10 text-main">
           OUR PLANT, EQUIPMENTS AND SERVICE
         </h1> */}
+        {/* <section className="overflow-hidden bg-company-profile-bg bg-center bg-no-repeat"> */}
         <div className="flex flex-col md:flex-row padding-container mb-4">
-          <div className="hidden md:block md:basis-2/5"></div>
-          <div className="basis-100 md:basis-3/5">
+          <div className="hidden md:block md:basis-2/5 "></div>
+          {/* <div className="basis-100 md:basis-3/5 overflow-hidden bg-company-profile-bg bg-center bg-no-repeat"> */}
+          <div className="basis-100 md:basis-3/5 ">
             <h1 className="text-2xl md:text-3xl font-bold mb-2">
               Pelican Holdings(PVT)LTD
             </h1>
@@ -53,6 +55,7 @@ const CompanyProfile = () => {
             </div>
           </div>
         </div>
+        {/* </section> */}
       </div>
     </div>
   );

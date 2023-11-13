@@ -36,7 +36,7 @@ const ConstructionServices = () => {
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">Available Products</h2>
         <p>Products are available in Barrel and Bulk form.</p>
-        <ul>
+        <ol>
           <li>
             80/100 & 60/70 bitumen - Available in 180Ltr drums and 4,000-20,000
             Ltr in bulk form
@@ -45,7 +45,7 @@ const ConstructionServices = () => {
             CSS 1, CRS 1, CRS 2, MC 30, and MC 70 - Available in 200Ltr drums
             and 6,000-13,500Ltr in bulk form
           </li>
-        </ul>
+        </ol>
       </section>
 
       <section className="mb-8">

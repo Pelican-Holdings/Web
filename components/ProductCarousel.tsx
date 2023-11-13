@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const ProductCarousel = () => {
   return (
-    <div className="w-full mx-8 overflow-hidden">
+    <div className="w-full mx-8 my-4 overflow-hidden">
       <Marquee
         gradient={false}
         speed={100}
