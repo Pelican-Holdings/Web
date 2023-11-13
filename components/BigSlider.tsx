@@ -78,7 +78,7 @@ const BigSlider = () => {
               alt={`Slider ${index + 1}`}
               layout="fill"
               objectFit="cover"
-              className="brightness-50"
+              className="brightness-50 opacity-25"
             />
             <div
               className={`padding-container text-main z-50 transition-opacity duration-500 ${
