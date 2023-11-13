@@ -8,7 +8,7 @@ const Features = () => {
       <div className="max-container padding-container relative w-full flex justify-end">
         <div className="flex flex-1 lg:min-h-[900px]">
           <Image
-            src="/backgrounds/service-landing.png"
+            src="https://res.cloudinary.com/midefulness/image/upload/v1699882135/Pelican%20Holdings/backgrounds/service-landing_wd0nga.png"
             alt="worker"
             width={440}
             height={1000}
@@ -19,7 +19,7 @@ const Features = () => {
         <div className="z-20 flex w-full flex-col lg:w-[60%]">
           <div className='relative'>
             <Image
-              src="/backgrounds/landing-logo.png"
+              src="https://res.cloudinary.com/midefulness/image/upload/v1699882114/Pelican%20Holdings/backgrounds/landing-logo_tl6gk8.png"
               alt="camp"
               width={50}
               height={50}
