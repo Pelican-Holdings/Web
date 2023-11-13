@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 import {
   Autoplay,
   Navigation,
@@ -29,7 +29,29 @@ interface RenderBulletProps {
   className: string;
 }
 
+const useViewport = () => {
+  const [width, setWidth] = useState<number>(0);
+  useEffect(() => {
+    const updateWidth = () => {
+      setWidth(window.innerWidth);
+    };
+    window.addEventListener("resize", updateWidth);
+
+    updateWidth();
+
+    return () => {
+      window.removeEventListener("resize", updateWidth);
+    };
+  }, []);
+
+  return width;
+};
+
 const BigSlider = () => {
+  const viewportWidth = useViewport();
+
+  const isMobileView = viewportWidth <= 450;
+
   const pagination = {
     clickable: true,
     dynamicBullets: true,
@@ -71,7 +93,7 @@ const BigSlider = () => {
       {slidesData.map((slide, index) => (
         <SwiperSlide key={index}>
           <div
-            style={{ width: "100vw", height: "80vh" }}
+            style={{ width: "100vw", height: isMobileView ? "100vh" : "80vh" }}
             className="relative swiper-zoom-container"
           >
             <Image
@@ -86,10 +108,10 @@ const BigSlider = () => {
                 currentSlide === index ? "slider-transition" : ""
               }`}
             >
-              <h2 className="text-3xl font-semibold text-white uppercase">
+              <h2 className="text-xl md:text-3xl font-semibold text-white uppercase">
                 {slide.title}
               </h2>
-              <h2 className="text-6xl font-bold text-white uppercase py-8">
+              <h2 className="text-5xl md:text-6xl font-bold text-white uppercase py-8">
                 {index % 2 === 0 ? (
                   <>
                     Pelican<span className="text-secondary"> Holdings</span>
@@ -103,7 +125,7 @@ const BigSlider = () => {
                   </>
                 )}
               </h2>
-              <p className="text-lg text-white font-semibold px-6">
+              <p className="text-md text-lg text-white font-semibold px-6">
                 {slide.description}
               </p>
             </div>
