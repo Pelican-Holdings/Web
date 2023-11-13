@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div>
       <HeroExternalPage
-        imageUrl="/backgrounds/our-services.jpg"
+        imageUrl="https://res.cloudinary.com/midefulness/image/upload/v1699882902/Pelican%20Holdings/backgrounds/4947_othmsy.jpg"
         content="Service Page"
       />
       <div className="padding-container mx-auto py-8 relative">

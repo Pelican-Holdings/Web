@@ -25,7 +25,7 @@ const page = () => {
                   "Office-0112450649",
                   "Factory-(+94)714818264",
                 ]}
-                imageUrl="/contactUs/phone-call.png"
+                imageUrl="https://res.cloudinary.com/midefulness/image/upload/v1699882937/Pelican%20Holdings/contactUs/phone-call_ln6gul.png"
                 isEmail={false}
               />
             </div>
@@ -33,7 +33,7 @@ const page = () => {
               <Card
                 title="Our Mail Box"
                 content={["holdingspelican@gmail.com"]}
-                imageUrl="/contactUs/mail.png"
+                imageUrl="https://res.cloudinary.com/midefulness/image/upload/v1699882936/Pelican%20Holdings/contactUs/mail_wksglz.png"
                 isEmail={true}
               />
             </div>
@@ -44,7 +44,7 @@ const page = () => {
                   "(Office)No. 27/A/2, Ranasinghe Road,Ja-Ela,Sri Lanka",
                   "(Factory)No.209/7 , Pelahela, Dekatana,Sri Lanka.",
                 ]}
-                imageUrl="/contactUs/location.png"
+                imageUrl="https://res.cloudinary.com/midefulness/image/upload/v1699882938/Pelican%20Holdings/contactUs/location_ktfryd.png"
                 isEmail={false}
               />
             </div>

@@ -20,12 +20,17 @@ const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
-        <Image src="/logo.png" alt="logo" width={74} height={25} />
+        <Image
+          src="https://res.cloudinary.com/midefulness/image/upload/v1699883021/Pelican%20Holdings/navbar/logo_yz39su.png"
+          alt="logo"
+          width={74}
+          height={25}
+        />
       </Link>
 
       {/* Mobile Menu Icon */}
       <Image
-        src="menu.svg"
+        src="https://res.cloudinary.com/midefulness/image/upload/v1699883053/Pelican%20Holdings/navbar/menu_pbjoi5.svg"
         alt="menu"
         width={32}
         height={32}
@@ -37,7 +42,7 @@ const Navbar = () => {
       <div
         className={`${
           isMobileMenuOpen ? "block" : "hidden"
-        // } lg:hidden absolute top-0 left-0 w-full text-center bg-white text-main p-5`}
+          // } lg:hidden absolute top-0 left-0 w-full text-center bg-white text-main p-5`}
         } lg:hidden absolute top-0 left-0 w-full text-center bg-main p-5`}
       >
         {/* Close Button */}
@@ -83,7 +88,7 @@ const Navbar = () => {
         <Button
           type="button"
           title="Contact Us"
-          icon="/navbar/telephone.png"
+          icon="https://res.cloudinary.com/midefulness/image/upload/v1699882960/Pelican%20Holdings/navbar/telephone_tv2kw9.png"
           variant="btn_dark_blue"
         />
       </div>

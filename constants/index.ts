@@ -78,11 +78,11 @@ export const FOOTER_CONTACT_INFO = {
 export const SOCIALS = {
   title: "Social",
   links: [
-    "/facebook.svg",
-    "/instagram.svg",
-    "/twitter.svg",
-    "/youtube.svg",
-    "/wordpress.svg",
+    "https://res.cloudinary.com/midefulness/image/upload/v1699884233/Pelican%20Holdings/footer/facebook_oyavk1.svg",
+    "https://res.cloudinary.com/midefulness/image/upload/v1699884234/Pelican%20Holdings/footer/instagram_laopjl.svg",
+    "https://res.cloudinary.com/midefulness/image/upload/v1699884234/Pelican%20Holdings/footer/twitter_drx3d4.svg",
+    "https://res.cloudinary.com/midefulness/image/upload/v1699884233/Pelican%20Holdings/footer/youtube_rpek6v.svg",
+    "https://res.cloudinary.com/midefulness/image/upload/v1699884235/Pelican%20Holdings/footer/wordpress_s2tpn4.svg",
   ],
 };
 
