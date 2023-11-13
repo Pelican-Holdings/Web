@@ -15,7 +15,7 @@ const page = () => {
       <div className="overflow-hidden bg-feature-product-bg bg-center bg-no-repeat">
         <div className="padding-container mt-8">
           <div>
-            <h1 className="text-2xl md:text-4xl font-semibold mb-6 text-main">
+            <h1 className="text-2xl md:text-4xl py-4 font-semibold mb-6 text-main">
               Our Products
             </h1>
             <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

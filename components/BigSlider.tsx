@@ -21,6 +21,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/effect-fade";
 import "swiper/css/zoom";
+import "swiper/css/effect-fade";
 import { slidesData } from "@/constants";
 
 interface RenderBulletProps {
@@ -62,7 +63,7 @@ const BigSlider = () => {
         disableOnInteraction: false,
       }}
       navigation={false}
-      //   effect="fade"
+      effect="fade"
       modules={[Autoplay, Pagination, Navigation, Zoom, EffectFade]}
       className="mySwiper"
       onSlideChangeTransitionStart={handleSlideChange}
@@ -78,7 +79,7 @@ const BigSlider = () => {
               alt={`Slider ${index + 1}`}
               layout="fill"
               objectFit="cover"
-              className="brightness-50 opacity-25"
+              className="brightness-50 opacity-100"
             />
             <div
               className={`padding-container text-main z-50 transition-opacity duration-500 ${
@@ -95,7 +96,8 @@ const BigSlider = () => {
                   </>
                 ) : (
                   <>
-                    Bitumen and<span className="text-secondary"> Bituminous</span>
+                    Bitumen and
+                    <span className="text-secondary"> Bituminous</span>
                     <br />
                     Products
                   </>
