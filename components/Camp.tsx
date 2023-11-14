@@ -15,7 +15,7 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
       <div className="flexCenter gap-4">
         <div className="rounded-full bg-secondary p-4">
           <Image
-            src="/folded-map.svg"
+            src="https://res.cloudinary.com/midefulness/image/upload/v1699983877/Pelican%20Holdings/road_ylcvq7.png"
             alt="map"
             width={28}
             height={28}
@@ -52,15 +52,15 @@ const Camp = () => {
     <section className="2xl:max-container relative flex flex-col py-10 lg:mb-10 lg:py-10 xl:mb-10">
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <CampSite 
-          backgroundImage="bg-camp-bg1"
+          backgroundImage="bg-camp-bg3"
           title="Pelican Holdings"
-          subtitle="Prigen, Pasuruan"
+          subtitle="Road Construction"
           peopleJoined="50+ Joined"
         />
         <CampSite 
           backgroundImage="bg-camp-bg2"
-          title="Mountain View Camp"
-          subtitle="Somewhere in the Wilderness"
+          title="Pelican Holdings"
+          subtitle="Road Construction"
           peopleJoined="50+ Joined"
         />
       </div>

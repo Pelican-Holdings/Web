@@ -5,7 +5,7 @@ export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
   { href: "/about", key: "about_us", label: "About Us" },
   { href: "/services", key: "services", label: "Services" },
-  { href: "/product", key: "product ", label: "Product " },
+  { href: "/products", key: "product ", label: "Products" },
   { href: "/contact", key: "contact_us", label: "Contact Us" },
 ];
 
@@ -20,32 +20,32 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: "Real maps can be offline",
+    title: "Delivery and Transportation",
     icon: "/map.svg",
     variant: "green",
     description:
       "We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location",
   },
   {
-    title: "Set an adventure schedule",
-    icon: "/calendar.svg",
-    variant: "green",
-    description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
-  },
-  {
-    title: "Technology using augment reality",
-    icon: "/tech.svg",
-    variant: "green",
-    description:
-      "Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection",
-  },
-  {
-    title: "Many new locations every month",
+    title: "Furnace Oil Heating and Mixing Plants",
     icon: "/location.svg",
     variant: "orange",
     description:
-      "Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing",
+      "Our furnace oil plant consists of heating and mixing plant which could produce 100,000 of fuel oil to the market.",
+  },
+  {
+    title: "Decanting Plant",
+    icon: "/calendar.svg",
+    variant: "green",
+    description:
+      "Our plant is supported by two modern decanting plant and we are able to produce bulk 60/70 and 80/100 Bitumen with the total capacity of 100,000 liters per day.",
+  },
+  {
+    title: "Storage Facilities",
+    icon: "/tech.svg",
+    variant: "green",
+    description:
+      "Our plant consists of bitumen and Emulsion storage tanks and we are able to store more than 400,000 liters of bitumen, cut back bitumen and bituminous emulsion in barrel and liquid form.",
   },
 ];
 

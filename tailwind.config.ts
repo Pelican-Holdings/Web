@@ -56,6 +56,7 @@ module.exports = {
         'company-profile-bg':"url('https://res.cloudinary.com/midefulness/image/upload/c_fill,w_2000,h_1125,ar_16:9,g_auto/v1699906767/Pelican%20Holdings/Construction-amico_vuebn5.png')",
         'camp-bg1':"url('https://res.cloudinary.com/midefulness/image/upload/v1699907653/Pelican%20Holdings/3377_ldbhzx.jpg')",
         'camp-bg2':"url('https://res.cloudinary.com/midefulness/image/upload/v1699907820/Pelican%20Holdings/23598_p3fwhc.jpg')",
+        'camp-bg3':"url('https://res.cloudinary.com/midefulness/image/upload/v1699982384/Pelican%20Holdings/4806_hnwqdn.jpg')",
       },
       screens: {
         xs: '400px',
