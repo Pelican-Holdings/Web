@@ -5,3 +5,10 @@ export interface Product {
   image: string;
   description: string;
 }
+
+export interface CompanyValue {
+  id: number;
+  name: string;
+  icon: string;
+  description: string;
+}

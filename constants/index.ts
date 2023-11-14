@@ -1,4 +1,4 @@
-import { Product } from "@/types";
+import { CompanyValue, Product } from "@/types";
 
 // NAVIGATION
 export const NAV_LINKS = [
@@ -177,6 +177,30 @@ export const products: Product[] = [
   },
 ];
 
+export const companyExternalValues: CompanyValue[] = [
+  {
+    id: 1,
+    name: "HIGH-QUALITY PRODUCTS",
+    icon: "https://res.cloudinary.com/midefulness/image/upload/v1699983877/Pelican%20Holdings/road_ylcvq7.png",
+    description:
+      "We manufacture premium quality bitumen based products using the highest quality bitumen sourced from renowned Middle Eastern refineries carefully selected by us. Our customers offered with consistently, high-quality bitumen based products complying with the global industry standards and specifications.",
+  },
+  {
+    id: 2,
+    name: "TECHNOLOGY LEADERSHIP",
+    icon: "https://res.cloudinary.com/midefulness/image/upload/v1699983877/Pelican%20Holdings/road_ylcvq7.png",
+    description:
+      "We manufacture premium quality bitumen based products using the highest quality bitumen sourced from renowned Middle Eastern refineries carefully selected by us. Our customers offered with consistently, high-quality bitumen based products complying with the global industry standards and specifications.",
+  },
+  {
+    id: 3,
+    name: "SERVICE EXCELLENCE",
+    icon: "https://res.cloudinary.com/midefulness/image/upload/v1699983877/Pelican%20Holdings/road_ylcvq7.png",
+    description:
+      "We manufacture premium quality bitumen based products using the highest quality bitumen sourced from renowned Middle Eastern refineries carefully selected by us. Our customers offered with consistently, high-quality bitumen based products complying with the global industry standards and specifications.",
+  },
+];
+
 export const companyValues = [
   "Customer Commitment and Satisfaction",
   "Quality",
@@ -261,4 +285,4 @@ export const slidesCardData = [
     imageUrl:
       "https://res.cloudinary.com/midefulness/image/upload/v1699297461/Pelican%20Holdings/1_c2unoe.jpg",
   },
-]
+];
