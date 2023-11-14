@@ -215,7 +215,7 @@ export const slidesData = [
   {
     imageUrl:
       "https://res.cloudinary.com/midefulness/image/upload/v1699799048/Pelican%20Holdings/construction-workers-hardhats-plan-skyscraper-using-blueprint-teamwork-generated-by-ai_ojum9x.jpg",
-    title: "We are Since 2013",
+    title: "Since 2013",
     description:
       "To deliver quality products exceeding the expectations of the customers and maintain a cutting edge over the rest of the market players thus makes our company a unique one.",
   },
@@ -227,3 +227,38 @@ export const slidesData = [
       "To deliver quality products exceeding the expectations of the customers and maintain a cutting edge over the rest of the market players thus makes our company a unique one.",
   },
 ];
+
+export const slidesCardData = [
+  {
+    imageUrl:
+      "https://res.cloudinary.com/midefulness/image/upload/v1699297484/Pelican%20Holdings/7-scaled_wxgdue.jpg",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/midefulness/image/upload/v1699297490/Pelican%20Holdings/IMG_20200829_092654-e1598722337701_wqbqnx.jpg",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/midefulness/image/upload/v1699297482/Pelican%20Holdings/IMG_20200829_092436_qx5nyw.jpg",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/midefulness/image/upload/v1699297478/Pelican%20Holdings/IMG_20200829_091958_vbn7yk.jpg",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/midefulness/image/upload/v1699297467/Pelican%20Holdings/2-scaled_rsuamg.jpg",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/midefulness/image/upload/v1699297467/Pelican%20Holdings/4_ilnwj6.jpg",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/midefulness/image/upload/v1699297467/Pelican%20Holdings/3-scaled_chzey4.jpg",
+  },
+  {
+    imageUrl:
+      "https://res.cloudinary.com/midefulness/image/upload/v1699297461/Pelican%20Holdings/1_c2unoe.jpg",
+  },
+]

@@ -81,7 +81,7 @@ const BigSlider = () => {
       spaceBetween={0}
       centeredSlides={true}
       autoplay={{
-        delay: 2500,
+        delay: 3000,
         disableOnInteraction: false,
       }}
       navigation={false}

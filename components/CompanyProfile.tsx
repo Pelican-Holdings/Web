@@ -1,17 +1,20 @@
 import React from "react";
+import SwiperCard from "./SwiperCard";
 
 const CompanyProfile = () => {
   return (
     <div>
-      <div className="py-8">
+      <div className="pb-10">
         {/* <h1 className="text-2xl md:text-4xl font-bold text-center pb-10 text-main">
           OUR PLANT, EQUIPMENTS AND SERVICE
         </h1> */}
         {/* <section className="overflow-hidden bg-company-profile-bg bg-center bg-no-repeat"> */}
-        <div className="flex flex-col md:flex-row padding-container mb-4">
-          <div className="hidden md:block md:basis-2/5 "></div>
+        <div className="flex flex-col md:flex-row padding-container mb-4 items-center justify-center">
+          <div className="block md:basis-2/5 order-1 pb-12 pt-8 md:py-0">
+            <SwiperCard />
+          </div>
           {/* <div className="basis-100 md:basis-3/5 overflow-hidden bg-company-profile-bg bg-center bg-no-repeat"> */}
-          <div className="basis-100 md:basis-3/5 ">
+          <div className="basis-100 md:basis-3/5 order-2">
             <h1 className="text-2xl md:text-3xl font-bold mb-2">
               Pelican Holdings(PVT)LTD
             </h1>
@@ -43,17 +46,19 @@ const CompanyProfile = () => {
                 manufactured to meet ASTM specifications and tested at the R & D
                 Laboratory of Road Development Authority in Sri Lanka.
               </p>
-              <p className="pb-4">
-                We supply our products high way projects, A grade and B grade
-                road construction and rehabilitation projects, C grade road
-                projects, Provincial road projects, and Asphalt producing plants
-                in Island wide. Our customer base consists of local and foreign
-                construction companies and government authorities. Our products
-                are well known in the market and we are geared to deliver the
-                products at any time of the day to any part of the country.
-              </p>
             </div>
           </div>
+        </div>
+        <div className="padding-container text-gray-500 leading-relaxed">
+          <p className="pb-4">
+            We supply our products high way projects, A grade and B grade road
+            construction and rehabilitation projects, C grade road projects,
+            Provincial road projects, and Asphalt producing plants in Island
+            wide. Our customer base consists of local and foreign construction
+            companies and government authorities. Our products are well known in
+            the market and we are geared to deliver the products at any time of
+            the day to any part of the country.
+          </p>
         </div>
         {/* </section> */}
       </div>
