@@ -58,11 +58,10 @@ export const FOOTER_LINKS = [
   {
     title: "Our Services",
     links: [
+      "Delivery and Transport",
+      "Furnace Oil Heating and Mixing Plants",
       "Decanting Plant",
       "Storage Facilities",
-      "Delivery and Transport",
-      "1",
-      "2",
     ],
   },
 ];
@@ -180,24 +179,24 @@ export const products: Product[] = [
 export const companyExternalValues: CompanyValue[] = [
   {
     id: 1,
-    name: "HIGH-QUALITY PRODUCTS",
-    icon: "https://res.cloudinary.com/midefulness/image/upload/v1699983877/Pelican%20Holdings/road_ylcvq7.png",
+    name: "SUPERIOR QUALITY GOODS",
+    icon: "https://res.cloudinary.com/midefulness/image/upload/v1700054392/Pelican%20Holdings/values/goods_jqmg1v.png",
     description:
-      "We manufacture premium quality bitumen based products using the highest quality bitumen sourced from renowned Middle Eastern refineries carefully selected by us. Our customers offered with consistently, high-quality bitumen based products complying with the global industry standards and specifications.",
+      "We provide you with the finest products, crafted from premium bitumen obtained from refineries in the Middle East. a line of consistently high-quality bitumen-based goods that meet or exceed international market standards.",
   },
   {
     id: 2,
-    name: "TECHNOLOGY LEADERSHIP",
-    icon: "https://res.cloudinary.com/midefulness/image/upload/v1699983877/Pelican%20Holdings/road_ylcvq7.png",
+    name: "TECHNICAL LEADERSHIP",
+    icon: "https://res.cloudinary.com/midefulness/image/upload/v1700054255/Pelican%20Holdings/values/goal_grjkeh.png",
     description:
-      "We manufacture premium quality bitumen based products using the highest quality bitumen sourced from renowned Middle Eastern refineries carefully selected by us. Our customers offered with consistently, high-quality bitumen based products complying with the global industry standards and specifications.",
+      "We create our items with the most advanced and innovative extraction techniques and cutting-edge technology to make them available to you in the most convenient manner possible.",
   },
   {
     id: 3,
     name: "SERVICE EXCELLENCE",
-    icon: "https://res.cloudinary.com/midefulness/image/upload/v1699983877/Pelican%20Holdings/road_ylcvq7.png",
+    icon: "https://res.cloudinary.com/midefulness/image/upload/v1700054138/Pelican%20Holdings/values/service_jb1jhg.png",
     description:
-      "We manufacture premium quality bitumen based products using the highest quality bitumen sourced from renowned Middle Eastern refineries carefully selected by us. Our customers offered with consistently, high-quality bitumen based products complying with the global industry standards and specifications.",
+      "Our service spans quality assurance, efficient supply chain management, innovation, and customer-centricity. Providing excellent treatment and paying close attention to our customers and procedures is one of our top priorities.",
   },
 ];
 

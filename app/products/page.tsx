@@ -16,7 +16,18 @@ const page = () => {
       <div className="padding-container mt-8">
         <div>
           <h1 className="text-2xl md:text-4xl py-4 font-semibold mb-6 text-main">
-            Our Products
+            Import and Export Products
+          </h1>
+          <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {products.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+        </div>
+
+        <div className="pt-2">
+          <h1 className="text-2xl md:text-4xl py-4 font-semibold mb-6 text-main">
+            Import and Export Products
           </h1>
           <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {products.map((product) => (
