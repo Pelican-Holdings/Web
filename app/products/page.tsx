@@ -2,7 +2,7 @@
 
 import HeroExternalPage from "@/components/HeroExternalPage";
 import ProductCard from "@/components/ProductCard";
-import { products } from "@/constants";
+import { products, otherProducts } from "@/constants";
 import React from "react";
 
 const page = () => {
@@ -27,10 +27,10 @@ const page = () => {
 
         <div className="pt-2">
           <h1 className="text-2xl md:text-4xl py-4 font-semibold mb-6 text-main">
-            Import and Export Products
+            Import and Export Product
           </h1>
           <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {products.map((product) => (
+            {otherProducts.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
           </div>

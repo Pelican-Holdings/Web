@@ -144,6 +144,14 @@ export const products: Product[] = [
   },
   {
     id: 8,
+    name: "Fuel Oil",
+    price: 19.99,
+    image:
+      "https://res.cloudinary.com/midefulness/image/upload/v1700069235/Pelican%20Holdings/New%20products/Pelican_Holdings_Fuel_Oil_n0gxqu.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 9,
     name: "Water Proof Coating",
     price: 19.99,
     image:
@@ -151,7 +159,7 @@ export const products: Product[] = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
-    id: 9,
+    id: 10,
     name: "Cold Pre Mix",
     price: 19.99,
     image:
@@ -159,7 +167,7 @@ export const products: Product[] = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
-    id: 10,
+    id: 11,
     name: "Solid and Hollow Cement Block",
     price: 19.99,
     image:
@@ -167,14 +175,73 @@ export const products: Product[] = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
-    id: 11,
+    id: 12,
     name: "Paving Blocks/Interlocks",
     price: 19.99,
     image:
-      "https://res.cloudinary.com/midefulness/image/upload/v1699297501/Pelican%20Holdings/WhatsApp-Image-2020-08-06-at-09.19.54_ut0ktn.jpg",
+      "https://res.cloudinary.com/midefulness/image/upload/v1700069268/Pelican%20Holdings/New%20products/Pelican_Holding_Paving_blocks_irjqyz.jpg",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
 ];
+
+export const otherProducts: Product[] = [
+  {
+    id: 1,
+    name: "Cinnamon and Spices",
+    price: 19.99,
+    image:
+      "https://res.cloudinary.com/midefulness/image/upload/v1700069315/Pelican%20Holdings/New%20products/Pelican_Holdings_Cinnamon_and_spieces_v1pqxu.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 2,
+    name: "Cinnamon Oil",
+    price: 19.99,
+    image:
+      "https://res.cloudinary.com/midefulness/image/upload/v1700069219/Pelican%20Holdings/New%20products/Pelican_Holdings_Cinnamon_Oil_vqn7lq.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 3,
+    name: "Coconut Coir Products",
+    price: 19.99,
+    image:
+      "https://res.cloudinary.com/midefulness/image/upload/v1700069346/Pelican%20Holdings/New%20products/Pelican_Holdings_Coconut_coir_products_r4uwlf.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 4,
+    name: "Handmade Products",
+    price: 19.99,
+    image:
+      "https://res.cloudinary.com/midefulness/image/upload/v1699718014/Pelican%20Holdings/Bitumen_80_sdrg96.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 4,
+    name: "Ladies Garment Items",
+    price: 19.99,
+    image:
+      "https://res.cloudinary.com/midefulness/image/upload/v1700069332/Pelican%20Holdings/New%20products/Pelican_Holdings_Ladies_Garments_uyrssi.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 5,
+    name: "King Coconut Oil",
+    price: 19.99,
+    image:
+      "https://res.cloudinary.com/midefulness/image/upload/v1699718014/Pelican%20Holdings/Bitumen_80_sdrg96.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    id: 6,
+    name: "Handicraft",
+    price: 19.99,
+    image:
+      "https://res.cloudinary.com/midefulness/image/upload/v1699718014/Pelican%20Holdings/Bitumen_80_sdrg96.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+]
 
 export const companyExternalValues: CompanyValue[] = [
   {
