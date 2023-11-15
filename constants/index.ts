@@ -21,28 +21,28 @@ export const PEOPLE_URL = [
 export const FEATURES = [
   {
     title: "Delivery and Transportation",
-    icon: "/map.svg",
+    icon: "https://res.cloudinary.com/midefulness/image/upload/v1700066929/Pelican%20Holdings/Our%20Services/truck_n4hrjp.png",
     variant: "green",
     description:
       "We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location",
   },
   {
     title: "Furnace Oil Heating and Mixing Plants",
-    icon: "/location.svg",
+    icon: "https://res.cloudinary.com/midefulness/image/upload/v1700066926/Pelican%20Holdings/Our%20Services/fuel_oxifzp.png",
     variant: "orange",
     description:
       "Our furnace oil plant consists of heating and mixing plant which could produce 100,000 of fuel oil to the market.",
   },
   {
     title: "Decanting Plant",
-    icon: "/calendar.svg",
+    icon: "https://res.cloudinary.com/midefulness/image/upload/v1700067098/Pelican%20Holdings/Our%20Services/oil-refinery_1_soczlp.png",
     variant: "green",
     description:
       "Our plant is supported by two modern decanting plant and we are able to produce bulk 60/70 and 80/100 Bitumen with the total capacity of 100,000 liters per day.",
   },
   {
     title: "Storage Facilities",
-    icon: "/tech.svg",
+    icon: "https://res.cloudinary.com/midefulness/image/upload/v1700067035/Pelican%20Holdings/Our%20Services/oil-tank_o9volt.png",
     variant: "green",
     description:
       "Our plant consists of bitumen and Emulsion storage tanks and we are able to store more than 400,000 liters of bitumen, cut back bitumen and bituminous emulsion in barrel and liquid form.",
