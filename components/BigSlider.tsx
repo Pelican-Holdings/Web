@@ -123,8 +123,10 @@ const BigSlider = () => {
             />
             {slidesImageLoaded[index] && (
               <div
-                className={`padding-container text-main z-50 transition-opacity duration-500 ${
-                  currentSlide === index ? "slider-transition" : ""
+                className={`padding-container text-main z-50 transition-opacity duration-500 content-container ${
+                  slidesImageLoaded[index] && currentSlide === index
+                    ? "animate-up"
+                    : ""
                 }`}
               >
                 <h2 className="text-xl md:text-3xl font-semibold text-white uppercase">

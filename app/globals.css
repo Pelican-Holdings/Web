@@ -219,3 +219,18 @@ body {
 }
 
 /* END LOADER */
+
+/* START BIG SLIDER */
+
+.content-container {
+  transform: translateY(50%); /* Initial position: off-screen below */
+  opacity: 0; /* Initially hidden */
+  transition: transform 2s ease-in-out, opacity 1s ease-in-out; /* Transition both properties */
+}
+
+.content-container.animate-up {
+  transform: translateY(0); /* Final position: visible */
+  opacity: 1; /* Fully visible */
+}
+
+/* END BIG SLIDER */

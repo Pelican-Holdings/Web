@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { NAV_LINKS } from "@/constants";
+import { NAV_LINKS, NAV_LINKS_MOBILE } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "./Button";
@@ -55,7 +55,7 @@ const Navbar = () => {
 
         {/* Mobile Menu Links */}
         <ul>
-          {NAV_LINKS.map((link) => (
+          {NAV_LINKS_MOBILE.map((link) => (
             <li key={link.key}>
               <Link
                 href={link.href}
@@ -90,6 +90,7 @@ const Navbar = () => {
           title="Contact Us"
           icon="https://res.cloudinary.com/midefulness/image/upload/v1699882960/Pelican%20Holdings/navbar/telephone_tv2kw9.png"
           variant="btn_dark_blue"
+          value="contact"
         />
       </div>
     </nav>
