@@ -23,6 +23,7 @@ import "swiper/css/effect-fade";
 import "swiper/css/zoom";
 import "swiper/css/effect-fade";
 import { slidesData } from "@/constants";
+import LoadingSpinner from "./LoadingSpinner";
 
 interface RenderBulletProps {
   index: number;
@@ -48,6 +49,18 @@ const useViewport = () => {
 };
 
 const BigSlider = () => {
+  const [slidesImageLoaded, setSlidesImageLoaded] = useState<boolean[]>(
+    new Array(slidesData.length).fill(false)
+  );
+
+  const setSlideImageLoaded = (index: number, loaded: boolean) => {
+    setSlidesImageLoaded((prevSlidesImageLoaded) =>
+      prevSlidesImageLoaded.map((isLoaded, i) =>
+        i === index ? loaded : isLoaded
+      )
+    );
+  };
+
   const viewportWidth = useViewport();
 
   const isMobileView = viewportWidth <= 450;
@@ -96,39 +109,46 @@ const BigSlider = () => {
             style={{ width: "100vw", height: isMobileView ? "100vh" : "80vh" }}
             className="relative swiper-zoom-container"
           >
+            <LoadingSpinner visible={!slidesImageLoaded[index]} />
             <Image
               src={slide.imageUrl}
               alt={`Slider ${index + 1}`}
               layout="fill"
               objectFit="cover"
               className="brightness-50 opacity-100"
+              // loading="eager"
+              loading="lazy"
+              onLoadingComplete={() => setSlideImageLoaded(index, true)}
+              // priority
             />
-            <div
-              className={`padding-container text-main z-50 transition-opacity duration-500 ${
-                currentSlide === index ? "slider-transition" : ""
-              }`}
-            >
-              <h2 className="text-xl md:text-3xl font-semibold text-white uppercase">
-                {slide.title}
-              </h2>
-              <h2 className="text-5xl md:text-6xl font-bold text-white uppercase py-8">
-                {index % 2 === 0 ? (
-                  <>
-                    Pelican<span className="text-secondary"> Holdings</span>
-                  </>
-                ) : (
-                  <>
-                    Bitumen and
-                    <span className="text-secondary"> Bituminous</span>
-                    <br />
-                    Products
-                  </>
-                )}
-              </h2>
-              <p className="text-md text-lg text-white font-semibold px-6">
-                {slide.description}
-              </p>
-            </div>
+            {slidesImageLoaded[index] && (
+              <div
+                className={`padding-container text-main z-50 transition-opacity duration-500 ${
+                  currentSlide === index ? "slider-transition" : ""
+                }`}
+              >
+                <h2 className="text-xl md:text-3xl font-semibold text-white uppercase">
+                  {slide.title}
+                </h2>
+                <h2 className="text-5xl md:text-6xl font-bold text-white uppercase py-8">
+                  {index % 2 === 0 ? (
+                    <>
+                      Pelican<span className="text-secondary"> Holdings</span>
+                    </>
+                  ) : (
+                    <>
+                      Bitumen and
+                      <span className="text-secondary"> Bituminous</span>
+                      <br />
+                      Products
+                    </>
+                  )}
+                </h2>
+                <p className="text-md text-lg text-white font-semibold px-6">
+                  {slide.description}
+                </p>
+              </div>
+            )}
           </div>
         </SwiperSlide>
       ))}

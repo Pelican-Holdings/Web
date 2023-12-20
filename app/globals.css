@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -15,25 +15,25 @@ body {
 }
 
 @layer utilities {
-  .btn_white { 
-    @apply  border-white bg-white px-8 py-3 text-green-50
+  .btn_white {
+    @apply border-white bg-white px-8 py-3 text-green-50;
   }
-  .btn_white_text  { 
-    @apply  border-white bg-white px-8 py-3 text-gray-90
+  .btn_white_text {
+    @apply border-white bg-white px-8 py-3 text-gray-90;
   }
-  .btn_green  { 
-    @apply  border-green-50 bg-green-50 px-8 py-5 text-white
+  .btn_green {
+    @apply border-green-50 bg-green-50 px-8 py-5 text-white;
   }
-  .btn_dark_green { 
-    @apply  bg-green-90 px-4 py-3 text-white transition-all hover:bg-black
+  .btn_dark_green {
+    @apply bg-green-90 px-4 py-3 text-white transition-all hover:bg-black;
   }
-  .btn_dark_blue { 
-    @apply  bg-main px-4 py-3 text-white transition-all hover:bg-black
+  .btn_dark_blue {
+    @apply bg-main px-4 py-3 text-white transition-all hover:bg-black;
   }
-  .btn_dark_green_outline  { 
-    @apply border-gray-20 bg-green-90 px-8 py-5 text-white
+  .btn_dark_green_outline {
+    @apply border-gray-20 bg-green-90 px-8 py-5 text-white;
   }
-  
+
   .max-container {
     @apply mx-auto max-w-[1440px];
   }
@@ -193,3 +193,29 @@ body {
   display: block;
   width: 20%;
 }
+
+/* START LOADER */
+
+.loading-spinner-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loading-spinner-circle {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ccc;
+  border-top-color: #333;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* END LOADER */
