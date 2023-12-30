@@ -4,6 +4,7 @@ import HeroExternalPage from "@/components/HeroExternalPage";
 import ProductCard from "@/components/ProductCard";
 import { products, otherProducts } from "@/constants";
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 
 const page = () => {
   return (
@@ -15,9 +16,11 @@ const page = () => {
       {/* <div className="overflow-hidden bg-feature-product-bg bg-center bg-no-repeat"> */}
       <div className="padding-container mt-8">
         <div>
-          <h1 className="text-2xl md:text-4xl py-4 font-semibold mb-6 text-main">
-            Import and Export Products
-          </h1>
+          <Fade>
+            <h1 className="text-2xl md:text-4xl py-4 font-semibold mb-6 text-main">
+              Import and Export Products
+            </h1>
+          </Fade>
           <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {products.map((product) => (
               <ProductCard key={product.id} product={product} />
@@ -26,9 +29,11 @@ const page = () => {
         </div>
 
         <div className="pt-2">
-          <h1 className="text-2xl md:text-4xl py-4 font-semibold mb-6 text-main">
-            Import and Export Product
-          </h1>
+          <Fade>
+            <h1 className="text-2xl md:text-4xl py-4 font-semibold mb-6 text-main">
+              Import and Export Product
+            </h1>
+          </Fade>
           <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {otherProducts.map((product) => (
               <ProductCard key={product.id} product={product} />
