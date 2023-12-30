@@ -2,7 +2,14 @@
 
 import HeroExternalPage from "@/components/HeroExternalPage";
 import ProductCard from "@/components/ProductCard";
-import { products, spicesProducts, coconutCoirProducts, handicraftProducts, handmadeProducts, ladiesGarmentProducts } from "@/constants";
+import {
+  products,
+  spicesProducts,
+  coconutCoirProducts,
+  handicraftProducts,
+  handmadeProducts,
+  ladiesGarmentProducts,
+} from "@/constants";
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 
@@ -28,7 +35,9 @@ const page = () => {
           </Fade>
           <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {products.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <Fade>
+                <ProductCard key={product.id} product={product} />
+              </Fade>
             ))}
           </div>
         </div>
@@ -41,7 +50,9 @@ const page = () => {
           </Fade>
           <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {spicesProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <Fade>
+                <ProductCard key={product.id} product={product} />
+              </Fade>
             ))}
           </div>
         </div>
@@ -54,7 +65,9 @@ const page = () => {
           </Fade>
           <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {coconutCoirProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <Fade>
+                <ProductCard key={product.id} product={product} />
+              </Fade>
             ))}
           </div>
         </div>
@@ -67,7 +80,9 @@ const page = () => {
           </Fade>
           <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {handicraftProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <Fade>
+                <ProductCard key={product.id} product={product} />
+              </Fade>
             ))}
           </div>
         </div>
@@ -80,7 +95,9 @@ const page = () => {
           </Fade>
           <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {ladiesGarmentProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <Fade>
+                <ProductCard key={product.id} product={product} />
+              </Fade>
             ))}
           </div>
         </div>
@@ -93,7 +110,9 @@ const page = () => {
           </Fade>
           <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {handmadeProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <Fade>
+                <ProductCard key={product.id} product={product} />
+              </Fade>
             ))}
           </div>
         </div>
