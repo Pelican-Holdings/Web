@@ -93,6 +93,17 @@ export const SOCIALS = {
   ],
 };
 
+export const fuelProducts: Product[] = [
+  {
+    id: 1,
+    name: "Fuel Oil",
+    price: 19.99,
+    image:
+      "https://res.cloudinary.com/midefulness/image/upload/v1700069235/Pelican%20Holdings/New%20products/Pelican_Holdings_Fuel_Oil_n0gxqu.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+]
+
 export const products: Product[] = [
   {
     id: 1,
@@ -151,14 +162,6 @@ export const products: Product[] = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
-    id: 8,
-    name: "Fuel Oil",
-    price: 19.99,
-    image:
-      "https://res.cloudinary.com/midefulness/image/upload/v1700069235/Pelican%20Holdings/New%20products/Pelican_Holdings_Fuel_Oil_n0gxqu.jpg",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
     id: 9,
     name: "Water Proof Coating",
     price: 19.99,
@@ -192,7 +195,7 @@ export const products: Product[] = [
   },
 ];
 
-export const otherProducts: Product[] = [
+export const spicesProducts: Product[] = [
   {
     id: 1,
     name: "Cinnamon and Spices",
@@ -209,8 +212,11 @@ export const otherProducts: Product[] = [
       "https://res.cloudinary.com/midefulness/image/upload/v1700069219/Pelican%20Holdings/New%20products/Pelican_Holdings_Cinnamon_Oil_vqn7lq.jpg",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
+]
+
+export const coconutCoirProducts: Product[] = [
   {
-    id: 3,
+    id: 1,
     name: "Coconut Coir Products",
     price: 19.99,
     image:
@@ -218,31 +224,18 @@ export const otherProducts: Product[] = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
-    id: 4,
-    name: "Handmade Products",
-    price: 19.99,
-    image:
-      "https://res.cloudinary.com/midefulness/image/upload/v1699718014/Pelican%20Holdings/Bitumen_80_sdrg96.jpg",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    id: 4,
-    name: "Ladies Garment Items",
-    price: 19.99,
-    image:
-      "https://res.cloudinary.com/midefulness/image/upload/v1700069332/Pelican%20Holdings/New%20products/Pelican_Holdings_Ladies_Garments_uyrssi.jpg",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    id: 5,
+    id: 2,
     name: "King Coconut Oil",
     price: 19.99,
     image:
       "https://res.cloudinary.com/midefulness/image/upload/v1699718014/Pelican%20Holdings/Bitumen_80_sdrg96.jpg",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
+]
+
+export const handicraftProducts: Product[] = [
   {
-    id: 6,
+    id: 1,
     name: "Handicraft",
     price: 19.99,
     image:
@@ -250,6 +243,33 @@ export const otherProducts: Product[] = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
 ]
+
+export const handmadeProducts: Product[] = [
+  {
+    id: 1,
+    name: "Handmade Products",
+    price: 19.99,
+    image:
+      "https://res.cloudinary.com/midefulness/image/upload/v1699718014/Pelican%20Holdings/Bitumen_80_sdrg96.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+]
+
+export const ladiesGarmentProducts: Product[] = [
+  {
+    id: 1,
+    name: "Ladies Garment Items",
+    price: 19.99,
+    image:
+      "https://res.cloudinary.com/midefulness/image/upload/v1700069332/Pelican%20Holdings/New%20products/Pelican_Holdings_Ladies_Garments_uyrssi.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+]
+
+// export const otherProducts: Product[] = [
+  
+  
+// ]
 
 export const companyExternalValues: CompanyValue[] = [
   {

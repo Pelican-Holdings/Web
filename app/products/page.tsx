@@ -2,7 +2,7 @@
 
 import HeroExternalPage from "@/components/HeroExternalPage";
 import ProductCard from "@/components/ProductCard";
-import { products, otherProducts } from "@/constants";
+import { products, spicesProducts, coconutCoirProducts, handicraftProducts, handmadeProducts, ladiesGarmentProducts } from "@/constants";
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 
@@ -21,6 +21,11 @@ const page = () => {
               Import and Export Products
             </h1>
           </Fade>
+          <Fade>
+            <h1 className="text-xl md:text-2xl pb-4 mb-6 text-slate-600 font-semibold">
+              Bitumen and Other Construction Products
+            </h1>
+          </Fade>
           <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {products.map((product) => (
               <ProductCard key={product.id} product={product} />
@@ -30,12 +35,64 @@ const page = () => {
 
         <div className="pt-2">
           <Fade>
-            <h1 className="text-2xl md:text-4xl py-4 font-semibold mb-6 text-main">
-              Import and Export Product
+            <h1 className="text-xl md:text-2xl py-4 mb-6 text-slate-600 font-semibold">
+              Spices Products
             </h1>
           </Fade>
           <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {otherProducts.map((product) => (
+            {spicesProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+        </div>
+
+        <div className="pt-2">
+          <Fade>
+            <h1 className="text-xl md:text-2xl py-4 mb-6 text-slate-600 font-semibold">
+              Coconut Coir Products
+            </h1>
+          </Fade>
+          <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {coconutCoirProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+        </div>
+
+        <div className="pt-2">
+          <Fade>
+            <h1 className="text-xl md:text-2xl py-4 mb-6 text-slate-600 font-semibold">
+              Handicraft
+            </h1>
+          </Fade>
+          <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {handicraftProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+        </div>
+
+        <div className="pt-2">
+          <Fade>
+            <h1 className="text-xl md:text-2xl py-4 mb-6 text-slate-600 font-semibold">
+              Ladies Garment Items
+            </h1>
+          </Fade>
+          <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {ladiesGarmentProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+        </div>
+
+        <div className="pt-2">
+          <Fade>
+            <h1 className="text-xl md:text-2xl py-4 mb-6 text-slate-600 font-semibold">
+              Handmade Items
+            </h1>
+          </Fade>
+          <div className="mx-auto mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {handmadeProducts.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
           </div>
