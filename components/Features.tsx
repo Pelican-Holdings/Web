@@ -1,6 +1,9 @@
-import { FEATURES } from '@/constants'
-import Image from 'next/image'
-import React from 'react'
+"use client";
+
+import { FEATURES } from "@/constants";
+import Image from "next/image";
+import React from "react";
+import { Fade } from "react-awesome-reveal";
 
 const Features = () => {
   return (
@@ -18,37 +21,41 @@ const Features = () => {
         </div>
 
         <div className="z-20 flex w-full flex-col lg:w-[60%]">
-          <div className='relative'>
-            <Image
+          <div className="relative">
+            {/* <Image
               src="https://res.cloudinary.com/midefulness/image/upload/v1699882114/Pelican%20Holdings/backgrounds/landing-logo_tl6gk8.png"
               alt="camp"
               width={50}
               height={50}
               className="absolute left-[-15px] top-[-18px] w-10 lg:w-[50px] -rotate-80"
-            />
-            <h2 className="bold-40 lg:bold-64">Our Services</h2>
+            /> */}
+            <Fade>
+              <h2 className="bold-40 lg:bold-64">Our Services</h2>
+            </Fade>
           </div>
           <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20">
             {FEATURES.map((feature) => (
-              <FeatureItem 
-                key={feature.title}
-                title={feature.title} 
-                icon={feature.icon}
-                description={feature.description}
-              />
+              <Fade cascade damping={0.1}>
+                <FeatureItem
+                  key={feature.title}
+                  title={feature.title}
+                  icon={feature.icon}
+                  description={feature.description}
+                />
+              </Fade>
             ))}
           </ul>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 type FeatureItem = {
   title: string;
   icon: string;
   description: string;
-}
+};
 
 const FeatureItem = ({ title, icon, description }: FeatureItem) => {
   return (
@@ -56,14 +63,12 @@ const FeatureItem = ({ title, icon, description }: FeatureItem) => {
       <div className="rounded-full p-4 lg:p-7 bg-secondary">
         <Image src={icon} alt="map" width={28} height={28} />
       </div>
-      <h2 className="bold-20 lg:bold-32 mt-5 capitalize">
-        {title}
-      </h2>
+      <h2 className="bold-20 lg:bold-32 mt-5 capitalize">{title}</h2>
       <p className="regular-16 mt-5 bg-white/80 text-gray-30 lg:mt-[30px] lg:bg-none">
         {description}
       </p>
     </li>
-  )
-}
+  );
+};
 
-export default Features
+export default Features;
