@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const ContactUsBanner = () => {
   return (
@@ -11,12 +12,14 @@ const ContactUsBanner = () => {
           Contact Us Now for Support
         </div>
         <div className="px-4 md:px-8 py-2">
-          <button
-            type="submit"
-            className="px-4 md:px-8 py-2 bg-main text-white hover:text-main rounded-md hover:bg-white border-2 hover:border-main text-center"
-          >
-            Contact Us
-          </button>
+          <Link href="/contact">
+            <button
+              type="submit"
+              className="px-4 md:px-8 py-2 bg-main text-white hover:text-main rounded-md hover:bg-white border-2 hover:border-main text-center"
+            >
+              Contact Us
+            </button>
+          </Link>
         </div>
       </div>
     </div>

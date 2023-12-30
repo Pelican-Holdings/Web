@@ -2,6 +2,7 @@
 import Image from "next/image";
 import HeroExternalPage from "@/components/HeroExternalPage";
 import ConstructionServices from "@/components/ConstructionServices";
+import ContactUsBanner from "@/components/ContactUsBanner";
 
 const page = () => {
   return (
@@ -34,11 +35,29 @@ const page = () => {
             OUR PLANT, EQUIPMENTS AND SERVICE
           </h1>
           <div className="flex flex-col md:flex-row padding-container mb-4">
-            <div className="hidden md:block md:basis-2/5"></div>
+            <div className="hidden md:block md:basis-2/5 gap-8">
+              <div className="border-4 border-white overflow-hidden bg-clip-content p-10">
+                <img
+                  src="https://res.cloudinary.com/midefulness/image/upload/v1699297484/Pelican%20Holdings/8-scaled_qgxfk7.jpg"
+                  alt="Image 1"
+                  className="w-full h-full object-cover object-center rounded-lg shadow-lg hover:shadow-xl"
+                />
+              </div>
+              <div className="border-4 border-white overflow-hidden bg-clip-content p-10">
+                <img
+                  src="https://res.cloudinary.com/midefulness/image/upload/v1699297484/Pelican%20Holdings/8-scaled_qgxfk7.jpg"
+                  alt="Image 1"
+                  className="w-full h-full object-cover object-center rounded-lg shadow-lg hover:shadow-xl"
+                />
+              </div>
+            </div>
             <div className="basis-100 md:basis-3/5">
               <ConstructionServices />
             </div>
           </div>
+        </div>
+        <div className="hidden md:block">
+          <ContactUsBanner />
         </div>
       </div>
     </div>
