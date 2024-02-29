@@ -44,7 +44,7 @@ const page = () => {
 
         <div className="pt-2">
           <Fade>
-            <h1 className="text-xl md:text-2xl py-4 mb-6 text-slate-600 font-semibold">
+            <h1 className="product-image-header">
               Spices Products
             </h1>
           </Fade>
@@ -59,7 +59,7 @@ const page = () => {
 
         <div className="pt-2">
           <Fade>
-            <h1 className="text-xl md:text-2xl py-4 mb-6 text-slate-600 font-semibold">
+            <h1 className="product-image-header">
               Coconut Coir Products
             </h1>
           </Fade>
@@ -74,7 +74,7 @@ const page = () => {
 
         <div className="pt-2">
           <Fade>
-            <h1 className="text-xl md:text-2xl py-4 mb-6 text-slate-600 font-semibold">
+            <h1 className="product-image-header">
               Handicraft
             </h1>
           </Fade>
@@ -89,7 +89,7 @@ const page = () => {
 
         <div className="pt-2">
           <Fade>
-            <h1 className="text-xl md:text-2xl py-4 mb-6 text-slate-600 font-semibold">
+            <h1 className="product-image-header">
               Ladies Garment Items
             </h1>
           </Fade>
@@ -104,7 +104,7 @@ const page = () => {
 
         <div className="pt-2">
           <Fade>
-            <h1 className="text-xl md:text-2xl py-4 mb-6 text-slate-600 font-semibold">
+            <h1 className="product-image-header">
               Handmade Items
             </h1>
           </Fade>

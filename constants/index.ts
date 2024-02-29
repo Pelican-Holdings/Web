@@ -166,7 +166,7 @@ export const products: Product[] = [
     name: "Water Proof Coating",
     price: 19.99,
     image:
-      "https://res.cloudinary.com/midefulness/image/upload/v1699297502/Pelican%20Holdings/WhatsApp-Image-2020-08-20-at-19.37.09_pyc3nq.jpg",
+      "https://res.cloudinary.com/midefulness/image/upload/v1709229757/Pelican%20Holdings/New%20products/Pelican_Holdings_Water_proof_coating-min_fegmip.png",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
@@ -174,7 +174,7 @@ export const products: Product[] = [
     name: "Cold Pre Mix",
     price: 19.99,
     image:
-      "https://res.cloudinary.com/midefulness/image/upload/v1699297502/Pelican%20Holdings/WhatsApp-Image-2020-08-21-at-23.51.23_lkkrrw.jpg",
+      "https://res.cloudinary.com/midefulness/image/upload/v1700069214/Pelican%20Holdings/New%20products/Pelican_Holdings_Coal_pre_mix_t0baix.jpg",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
@@ -182,7 +182,7 @@ export const products: Product[] = [
     name: "Solid and Hollow Cement Block",
     price: 19.99,
     image:
-      "https://res.cloudinary.com/midefulness/image/upload/v1699297499/Pelican%20Holdings/WhatsApp-Image-2020-08-06-at-09.19.53-1_mxvr07.jpg",
+      "https://res.cloudinary.com/midefulness/image/upload/v1700069263/Pelican%20Holdings/New%20products/Pelican_Holdings_Solid_Hollow_cement_blocks_ikiqv8.jpg",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
@@ -228,7 +228,7 @@ export const coconutCoirProducts: Product[] = [
     name: "King Coconut Oil",
     price: 19.99,
     image:
-      "https://res.cloudinary.com/midefulness/image/upload/v1699718014/Pelican%20Holdings/Bitumen_80_sdrg96.jpg",
+      "https://res.cloudinary.com/midefulness/image/upload/v1700068719/Pelican%20Holdings/New%20products/Pelican_Holdings_Coconut_Oil_pev27a.jpg",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
 ]
@@ -239,7 +239,7 @@ export const handicraftProducts: Product[] = [
     name: "Handicraft",
     price: 19.99,
     image:
-      "https://res.cloudinary.com/midefulness/image/upload/v1699718014/Pelican%20Holdings/Bitumen_80_sdrg96.jpg",
+      "https://res.cloudinary.com/midefulness/image/upload/v1709229769/Pelican%20Holdings/New%20products/Pelican_Holdings2_Handicraft_zaprrt.jpg",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
 ]
@@ -250,7 +250,7 @@ export const handmadeProducts: Product[] = [
     name: "Handmade Products",
     price: 19.99,
     image:
-      "https://res.cloudinary.com/midefulness/image/upload/v1699718014/Pelican%20Holdings/Bitumen_80_sdrg96.jpg",
+      "https://res.cloudinary.com/midefulness/image/upload/v1709229775/Pelican%20Holdings/New%20products/Pelican_Holdings2_Hand_made_gk0heb.jpg",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
 ]

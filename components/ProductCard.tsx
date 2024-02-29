@@ -10,14 +10,15 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
     <div className="bg-white border p-4 md:mb-4 shadow-lg overflow-hidden group transition-transform duration-300 ease-in-out transform hover:scale-105">
       <div className="justify-center">
-      <Image
+        <Image
           src={product.image}
           alt={product.name}
           width={400} // Adjust width as needed
           height={300} // Adjust height as needed
           className="mb-2 h-1/2 md:h-1/4 mx-auto max-w-full"
           placeholder="blur" // Show a blurred placeholder while loading
-          blurDataURL={product.image} // Use the image itself as the placeholder
+          blurDataURL={`data:image/svg+xml;base64,${product.image}`}
+          loading="lazy"
         />
       </div>
 
