@@ -5,7 +5,7 @@ const ConstructionServices = () => {
     <div>
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">Decanting Plant</h2>
-        <p>
+        <p className="text-justify">
           Our plant is supported by two modern decanting plants, and we are able
           to produce bulk 60/70 and 80/100 Bitumen with the total capacity of
           100,000 liters per day.
@@ -14,7 +14,7 @@ const ConstructionServices = () => {
 
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">Storage Facilities</h2>
-        <p>
+        <p className="text-justify">
           Our plant consists of bitumen and Emulsion storage tanks, and we are
           able to store more than 400,000 liters of bitumen, cut back bitumen,
           and bituminous emulsion in barrel and liquid form.
@@ -23,7 +23,7 @@ const ConstructionServices = () => {
 
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">Delivery and Transport</h2>
-        <p>
+        <p className="text-justify">
           Our products are well known in the market, and we are geared to
           deliver the products at any time of the day to any part of the
           country. We are equipped with six numbers of 13,500 liters bowsers,
@@ -36,16 +36,16 @@ const ConstructionServices = () => {
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2">Available Products</h2>
         <p>Products are available in Barrel and Bulk form.</p>
-        <ol>
+        <ul className="list-inside list-disc">
           <li>
-            80/100 & 60/70 bitumen - Available in 180Ltr drums and 4,000-20,000
-            Ltr in bulk form
+            80/100 &amp; 60/70 bitumen - Available in 180Ltr drums and
+            4,000-20,000 Ltr in bulk form
           </li>
           <li>
             CSS 1, CRS 1, CRS 2, MC 30, and MC 70 - Available in 200Ltr drums
             and 6,000-13,500Ltr in bulk form
           </li>
-        </ol>
+        </ul>
       </section>
 
       <section className="mb-8">

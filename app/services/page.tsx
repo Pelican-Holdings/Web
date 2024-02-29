@@ -11,12 +11,12 @@ const page = () => {
         imageUrl="https://res.cloudinary.com/midefulness/image/upload/v1699882902/Pelican%20Holdings/backgrounds/4947_othmsy.jpg"
         content="Service Page"
       />
-      <div className="padding-container mx-auto py-8 relative">
+      <div className="padding-container mx-auto xs:pt-4 py-8 relative">
         <div className="py-10">
-          <h1 className="text-2xl md:text-4xl font-bold text-center pb-6 text-main">
+          <h1 className="text-2xl md:text-4xl font-bold text-center pb-10 text-main">
             NATURE OF BUSINESS
           </h1>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-justify">
             <span className="font-semibold">PELICAN HOLDINGS (PVT) LTD</span> is
             a limited liability company which registered under the companies act
             in Sri Lanka.{" "}
@@ -34,13 +34,15 @@ const page = () => {
           <h1 className="text-2xl md:text-4xl font-bold text-center pb-10 text-main">
             OUR PLANT, EQUIPMENTS AND SERVICE
           </h1>
-          <div className="flex flex-col md:flex-row padding-container mb-4">
+          <div className="flex flex-col md:flex-row padding-container items-start">
             <div className="hidden md:block md:basis-2/5 gap-8">
-              <div className="border-4 border-white overflow-hidden bg-clip-content p-10">
+              <div className="border-4 border-white overflow-hidden bg-clip-content px-10">
                 <img
                   src="https://res.cloudinary.com/midefulness/image/upload/v1699297484/Pelican%20Holdings/8-scaled_qgxfk7.jpg"
                   alt="Image 1"
                   className="w-full h-full object-cover object-center rounded-lg shadow-lg hover:shadow-xl"
+                  placeholder="blur"
+                  loading="lazy"
                 />
               </div>
               <div className="border-4 border-white overflow-hidden bg-clip-content p-10">
@@ -48,6 +50,8 @@ const page = () => {
                   src="https://res.cloudinary.com/midefulness/image/upload/v1699297484/Pelican%20Holdings/8-scaled_qgxfk7.jpg"
                   alt="Image 1"
                   className="w-full h-full object-cover object-center rounded-lg shadow-lg hover:shadow-xl"
+                  placeholder="blur"
+                  loading="lazy"
                 />
               </div>
             </div>

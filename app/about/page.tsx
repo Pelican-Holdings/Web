@@ -36,6 +36,8 @@ const page = () => {
                   src={imageUrls[0]}
                   alt="Image 1"
                   className="w-full h-full object-cover object-center rounded-lg shadow-lg hover:shadow-xl"
+                  placeholder="blur"
+                  loading="lazy"
                 />
               </div>
             </div>
