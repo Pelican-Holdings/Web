@@ -36,20 +36,20 @@ const page = () => {
           </h1>
           <div className="flex flex-col md:flex-row padding-container items-start">
             <div className="hidden md:block md:basis-2/5 gap-8">
-              <div className="border-4 border-white overflow-hidden bg-clip-content px-10">
+              <div className="border-4 border-white overflow-hidden bg-clip-content pr-10">
                 <img
                   src="https://res.cloudinary.com/midefulness/image/upload/v1699297484/Pelican%20Holdings/8-scaled_qgxfk7.jpg"
                   alt="Image 1"
-                  className="w-full h-full object-cover object-center rounded-lg shadow-lg hover:shadow-xl"
+                  className="w-full h-full 3xl:h-80 object-cover object-center rounded-lg shadow-lg hover:shadow-xl"
                   placeholder="blur"
                   loading="lazy"
                 />
               </div>
-              <div className="border-4 border-white overflow-hidden bg-clip-content p-10">
+              <div className="border-4 border-white overflow-hidden bg-clip-content py-10 pr-10">
                 <img
                   src="https://res.cloudinary.com/midefulness/image/upload/v1699297484/Pelican%20Holdings/8-scaled_qgxfk7.jpg"
                   alt="Image 1"
-                  className="w-full h-full object-cover object-center rounded-lg shadow-lg hover:shadow-xl"
+                  className="w-full h-full 3xl:h-80 object-cover object-center rounded-lg shadow-lg hover:shadow-xl"
                   placeholder="blur"
                   loading="lazy"
                 />
