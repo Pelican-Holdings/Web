@@ -42,7 +42,7 @@ const page = () => {
           </div>
         </div>
 
-        <div className="pt-2">
+        {/* <div className="pt-2">
           <Fade>
             <h1 className="product-image-header">
               Spices Products
@@ -55,9 +55,9 @@ const page = () => {
               </Fade>
             ))}
           </div>
-        </div>
+        </div> */}
 
-        <div className="pt-2">
+        {/* <div className="pt-2">
           <Fade>
             <h1 className="product-image-header">
               Coconut Coir Products
@@ -70,9 +70,9 @@ const page = () => {
               </Fade>
             ))}
           </div>
-        </div>
+        </div> */}
 
-        <div className="pt-2">
+        {/* <div className="pt-2">
           <Fade>
             <h1 className="product-image-header">
               Handicraft
@@ -85,9 +85,9 @@ const page = () => {
               </Fade>
             ))}
           </div>
-        </div>
+        </div> */}
 
-        <div className="pt-2">
+        {/* <div className="pt-2">
           <Fade>
             <h1 className="product-image-header">
               Ladies Garment Items
@@ -100,9 +100,9 @@ const page = () => {
               </Fade>
             ))}
           </div>
-        </div>
+        </div> */}
 
-        <div className="pt-2">
+        {/* <div className="pt-2">
           <Fade>
             <h1 className="product-image-header">
               Handmade Items
@@ -115,7 +115,7 @@ const page = () => {
               </Fade>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
       {/* </div> */}
     </div>
