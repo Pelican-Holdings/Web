@@ -106,7 +106,7 @@ const BigSlider = () => {
       {slidesData.map((slide, index) => (
         <SwiperSlide key={index}>
           <div
-            style={{ width: "100vw", height: isMobileView ? "100vh" : "80vh" }}
+            style={{ width: "100vw", height: isMobileView ? "100vh" : "85vh" }}
             className="relative swiper-zoom-container"
           >
             <LoadingSpinner visible={!slidesImageLoaded[index]} />
@@ -115,7 +115,7 @@ const BigSlider = () => {
               alt={`Slider ${index + 1}`}
               layout="fill"
               objectFit="cover"
-              className="brightness-50 opacity-100"
+              className="brightness-30 opacity-100"
               // loading="eager"
               loading="lazy"
               onLoadingComplete={() => setSlideImageLoaded(index, true)}
@@ -133,18 +133,40 @@ const BigSlider = () => {
                   {slide.title}
                 </h2>
                 <h2 className="text-5xl md:text-6xl font-bold text-white uppercase py-8">
-                  {index % 2 === 0 ? (
+                  {index === 0 && 
                     <>
                       Pelican<span className="text-secondary"> Holdings</span>
                     </>
-                  ) : (
+                  }
+                  {index === 1 && 
                     <>
                       Bitumen and
                       <span className="text-secondary"> Bituminous</span>
                       <br />
                       Products
                     </>
-                  )}
+                  }
+                  {index === 2 && 
+                    <>
+                      Powering Industries with
+                      <span className="text-secondary"> Efficiency</span>
+                    </>
+                  }
+                  {index === 3 && 
+                    <>
+                      <span className="text-secondary">Streamlining </span>Supply Chain Solutions
+                    </>
+                  }
+                  {index === 4 && 
+                    <>
+                      <span className="text-secondary">Connecting </span>Global Markets Efficiently
+                    </>
+                  }
+                  {index === 5 && 
+                    <>
+                      <span className="text-secondary">Explore </span>the World with Ease
+                    </>
+                  }
                 </h2>
                 <p className="text-md text-lg text-white font-semibold px-6">
                   {slide.description}

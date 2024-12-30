@@ -35,7 +35,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className="relative overflow-x-hidden">
+      <body className="relative overflow-x-hidden scroll-smooth">
         <div className="invisible sm:visible absolute sm:relative">
           <Header />
         </div>

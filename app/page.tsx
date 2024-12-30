@@ -5,6 +5,7 @@ import CompanyProfile from "@/components/CompanyProfile";
 import CompanyValues from "@/components/CompanyValues";
 import ContactUsBanner from "@/components/ContactUsBanner";
 import Features from "@/components/Features";
+import Gears from "@/components/Gears";
 import GetApp from "@/components/GetApp";
 import Guide from "@/components/Guide";
 import Hero from "@/components/Hero";
@@ -15,6 +16,7 @@ export default function Home() {
     <>
       <BigSlider />
       <CompanyValues />
+      {/* <Gears /> */}
       <Camp />
       <Features />
       <CompanyProfile />
