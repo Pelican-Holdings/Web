@@ -343,32 +343,40 @@ export const slidesData = [
     imageUrl:
       "https://res.cloudinary.com/midefulness/image/upload/v1699297498/Pelican%20Holdings/1035-scaled_gwwqke.jpg",
     title: "We are Since 2013",
+    mainTitle: "PELICAN HOLDINGS",
     description:
       "To deliver quality products exceeding the expectations of the customers and maintain a cutting edge over the rest of the market players thus makes our company a unique one.",
   },
   {
-    imageUrl:
-      // "https://res.cloudinary.com/midefulness/image/upload/v1699723656/Pelican%20Holdings/4997_zzmlnr.jpg",
-      "https://res.cloudinary.com/midefulness/image/upload/v1699297505/Pelican%20Holdings/1_xprxhd.jpg",
+    imageUrl: "https://res.cloudinary.com/midefulness/image/upload/v1699297505/Pelican%20Holdings/1_xprxhd.jpg",
     title: "OUR PASSION TO DELIVER QUALITY PRODUCTS...",
+    mainTitle: "BITUMEN AND BITUMINOUS PRODUCTS",
     description:
       "To deliver quality products exceeding the expectations of the customers and maintain a cutting edge over the rest of the market players thus makes our company a unique one.",
   },
   {
-    imageUrl:
-      // "https://res.cloudinary.com/midefulness/image/upload/v1699799048/Pelican%20Holdings/construction-workers-hardhats-plan-skyscraper-using-blueprint-teamwork-generated-by-ai_ojum9x.jpg",
-      "https://res.cloudinary.com/midefulness/image/upload/v1699297462/Pelican%20Holdings/2_x8nxso.jpg",
-    title: "Since 2013",
-    description:
-      "To deliver quality products exceeding the expectations of the customers and maintain a cutting edge over the rest of the market players thus makes our company a unique one.",
+    imageUrl:"https://res.cloudinary.com/midefulness/image/upload/v1735594543/Pelican%20Holdings/Slider/Pelican_Furnence_oil_image_lj1b4d.jpg",
+    title: "Furnace Oil",
+    mainTitle: "Powering Industries with Efficiency",
+    description: "Seamless delivery of furnace oil to meet industrial energy demands, ensuring reliability, cost-effectiveness, and operational excellence."
   },
   {
-    imageUrl:
-      // "https://res.cloudinary.com/midefulness/image/upload/v1699297505/Pelican%20Holdings/1_xprxhd.jpg",
-      "https://res.cloudinary.com/midefulness/image/upload/v1699297461/Pelican%20Holdings/1_c2unoe.jpg",
-    title: "OUR PASSION TO DELIVER QUALITY PRODUCTS...",
-    description:
-      "To deliver quality products exceeding the expectations of the customers and maintain a cutting edge over the rest of the market players thus makes our company a unique one.",
+    imageUrl:"https://res.cloudinary.com/midefulness/image/upload/v1735594543/Pelican%20Holdings/Slider/Pelican_Logistics_and_transportation_image_hl5ofu.jpg",
+    title: "Logistics and Transportation",
+    mainTitle: "Streamlining Supply Chain Solutions",
+    description: "Reliable logistics and transportation services to optimize supply chains, ensuring timely deliveries, cost savings, and enhanced business operations."
+  },
+  {
+    imageUrl:"https://res.cloudinary.com/midefulness/image/upload/v1735594538/Pelican%20Holdings/Slider/Pelican__Import_and_Export_image_ozzwgo.jpg",
+    title: "Import and Export ",
+    mainTitle: "Connecting Global Markets Efficiently",
+    description: "Comprehensive import and export solutions for smooth international trade, ensuring reliability, compliance, and timely delivery across global supply chains."
+  },
+  {
+    imageUrl:"https://res.cloudinary.com/midefulness/image/upload/v1735595796/Pelican%20Holdings/Slider/29703_aowhhx.jpg",
+    title: "Tourism",
+    mainTitle: "Explore the World with Ease",
+    description: "Tailored tourism services offering memorable journeys, seamless planning, and exceptional experiences to connect you with the beauty of diverse destinations worldwide."
   },
 ];
 

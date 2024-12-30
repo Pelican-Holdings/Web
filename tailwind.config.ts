@@ -11,6 +11,11 @@ module.exports = {
         poppins: "poppins",
         questrial: "Questrial",
       },
+      scrollBehavior: ['smooth'],
+      brightness: {
+        25: '.25',
+        30: '.30',
+      },
       colors: {
         main: "#030e27",
         // main: "#015c75",
