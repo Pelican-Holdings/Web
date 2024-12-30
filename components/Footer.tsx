@@ -24,8 +24,8 @@ const Footer = () => {
               <FooterColumn title={columns.title}>
                 <ul className="regular-14 flex flex-col gap-4 text-gray-30">
                   {columns.links.map((link) => (
-                    <Link href="/" key={link}>
-                      {link}
+                    <Link href={link.url} key={link.label}>
+                      {link.label}
                     </Link>
                   ))}
                 </ul>
@@ -52,9 +52,9 @@ const Footer = () => {
             <div className="flex flex-col gap-5">
               <FooterColumn title={SOCIALS.title}>
                 <ul className="regular-14 flex gap-4 text-gray-30">
-                  {SOCIALS.links.map((link) => (
-                    <Link href="/" key={link}>
-                      <Image src={link} alt="logo" width={24} height={24} />
+                  {SOCIALS.links.map((social, index) => (
+                    <Link href={social.url} key={index} target="_blank" rel="noopener noreferrer">
+                      <Image src={social.icon} alt={`${social.url} logo`} width={24} height={24} />
                     </Link>
                   ))}
                 </ul>
@@ -65,7 +65,7 @@ const Footer = () => {
 
         <div className="border bg-gray-20" />
         <p className="regular-14 w-full text-center text-gray-30">
-          2023 Pelican Holdings | All rights reserved
+          2024 Pelican Holdings | <Link href="https://yohan-portfolio.netlify.app/" className="medium-14">CodeIdol</Link> | All rights reserved
         </p>
       </div>
     </footer>

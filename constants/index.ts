@@ -6,6 +6,7 @@ export const NAV_LINKS = [
   { href: "/about", key: "about_us", label: "About Us" },
   { href: "/services", key: "services", label: "Services" },
   { href: "/products", key: "products", label: "Products" },
+  { href: "/tourism", key: "tourism", label: "Tourism" }
   // { href: "/contact", key: "contact_us", label: "Contact Us" },
 ];
 
@@ -15,6 +16,7 @@ export const NAV_LINKS_MOBILE = [
   { href: "/services", key: "services", label: "Services" },
   { href: "/products", key: "products", label: "Products" },
   { href: "/contact", key: "contact_us", label: "Contact Us" },
+  { href: "/tourism", key: "tourism", label: "Tourism" }
 ];
 
 // CAMP SECTION
@@ -61,17 +63,27 @@ export const FEATURES = [
 export const FOOTER_LINKS = [
   {
     title: "Learn More",
-    links: ["Home", "About Us", "Services", "Products", "Contact Us"],
+    links: [
+      { label: "Home", url: "/" },
+      { label: "About Us", url: "/about" },
+      { label: "Services", url: "/services" },
+      { label: "Products", url: "/products" },
+      { label: "Tourism", url: "/tourism" },
+      { label: "Contact Us", url: "/contact" },
+    ],
   },
   {
     title: "Our Services",
     links: [
-      "Delivery and Transport",
-      "Furnace Oil Heating and Mixing Plants",
-      "Decanting Plant",
-      "Storage Facilities",
+      { label: "Bitumen Emulsions", url: "/services" },
+      { label: "Logistics and Transportation", url: "/services" },
+      { label: "Furnace Oil Heating and Mixing Plants", url: "/services" },
+      { label: "Decanting Plant", url: "/services" },
+      { label: "Storage Facilities", url: "/services" },
+      { label: "Amano and Roofing Solutions", url: "/services" },
+      { label: "Tourism", url: "/services" },
     ],
-  },
+  }
 ];
 
 export const FOOTER_CONTACT_INFO = {
@@ -85,11 +97,22 @@ export const FOOTER_CONTACT_INFO = {
 export const SOCIALS = {
   title: "Social",
   links: [
-    "https://res.cloudinary.com/midefulness/image/upload/v1699884233/Pelican%20Holdings/footer/facebook_oyavk1.svg",
-    "https://res.cloudinary.com/midefulness/image/upload/v1699884234/Pelican%20Holdings/footer/instagram_laopjl.svg",
-    "https://res.cloudinary.com/midefulness/image/upload/v1699884234/Pelican%20Holdings/footer/twitter_drx3d4.svg",
-    "https://res.cloudinary.com/midefulness/image/upload/v1699884233/Pelican%20Holdings/footer/youtube_rpek6v.svg",
-    "https://res.cloudinary.com/midefulness/image/upload/v1699884235/Pelican%20Holdings/footer/wordpress_s2tpn4.svg",
+    {
+      icon: "https://res.cloudinary.com/midefulness/image/upload/v1699884233/Pelican%20Holdings/footer/facebook_oyavk1.svg",
+      url: "https://web.facebook.com/holdingspelican/?_rdc=1&_rdr",
+    },
+    {
+      icon: "https://res.cloudinary.com/midefulness/image/upload/v1699884234/Pelican%20Holdings/footer/instagram_laopjl.svg",
+      url: "https://www.instagram.com",
+    },
+    {
+      icon: "https://res.cloudinary.com/midefulness/image/upload/v1699884234/Pelican%20Holdings/footer/twitter_drx3d4.svg",
+      url: "https://www.twitter.com",
+    },
+    {
+      icon: "https://res.cloudinary.com/midefulness/image/upload/v1699884233/Pelican%20Holdings/footer/youtube_rpek6v.svg",
+      url: "https://www.youtube.com",
+    },
   ],
 };
 
