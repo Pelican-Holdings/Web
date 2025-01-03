@@ -65,7 +65,7 @@ const Footer = () => {
 
         <div className="border bg-gray-20" />
         <p className="regular-14 w-full text-center text-gray-30">
-          2024 Pelican Holdings | <Link href="https://yohan-portfolio.netlify.app/" className="medium-14">CodeIdol</Link> | All rights reserved
+          2024 Pelican Holdings | <Link href="https://yohan-portfolio.netlify.app/" className="medium-14">CodingIdol</Link> | All rights reserved
         </p>
       </div>
     </footer>
