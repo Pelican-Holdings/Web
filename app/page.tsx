@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <BigSlider />
       <CompanyValues />
-      {/* <Gears /> */}
+      <Gears />
       <Camp />
       <Features />
       <CompanyProfile />

@@ -1,48 +1,36 @@
+"use client";
+
 import Image from "next/image";
+import { Fade } from "react-awesome-reveal";
 
 const Gears = () => {
   return (
-    <div className="relative flex items-center justify-center w-full min-h-screen bg-white">
-      {/* Large Gear */}
-      <div className="absolute w-[250px] h-[250px] flex items-center justify-center rounded-full border-8 border-blue-900 animate-spin-slow">
-        <Image
-          src="https://res.cloudinary.com/midefulness/image/upload/v1735592888/Pelican%20Holdings/Pelican-holding-logo_b2sr3v.png"
-          alt="Pelican Logo"
-          width={150}
-          height={150}
-          className="rounded-full"
-        />
+    <section className="mt-14 lg:mt-16">
+      {/* Header Section */}
+      <div className="text-center px-4">
+        <Fade>
+          <h1 className="text-3xl sm:text-5xl font-bold">
+            <span className="text-secondary">Our Trusted Brands,</span>
+            <span className="text-main"> United Under One Vision</span>
+          </h1>
+        </Fade>
       </div>
 
-      {/* Medium Gear */}
-      <div className="absolute top-[30%] left-[55%] w-[200px] h-[200px] flex items-center justify-center rounded-full border-8 border-blue-900 animate-spin-medium">
-        <Image
-          src="https://res.cloudinary.com/midefulness/image/upload/v1735592888/Pelican%20Holdings/Pelican-holding-logo_b2sr3v.png"
-          alt="Pelican Industries Logo"
-          width={120}
-          height={120}
-          className="rounded-full"
-        />
+      {/* Image Section */}
+      <div className="relative w-full h-[30vh] sm:h-[70vh] lg:h-[80vh] overflow-hidden mt-8">
+        <div className="relative w-full h-full">
+          <Fade cascade damping={0.1} triggerOnce>
+            <Image
+              src="https://res.cloudinary.com/midefulness/image/upload/v1735932747/Pelican%20Holdings/Slider/A4_-_3_vvrzbl.png"
+              alt="Descriptive Alt Text"
+              layout="fill"
+              className="object-contain"
+              priority
+            />
+          </Fade>
+        </div>
       </div>
-
-      {/* Small Gear */}
-      <div className="absolute top-[60%] left-[20%] w-[100px] h-[100px] flex items-center justify-center rounded-full border-8 border-blue-900 animate-spin-fast">
-        <Image
-          src="https://res.cloudinary.com/midefulness/image/upload/v1735580529/Untitled_design_sumxn3.png"
-          alt="Pelican Ceylon Tours Logo"
-          width={60}
-          height={60}
-          className="rounded-full"
-        />
-      </div>
-
-      {/* Extra Small Gear */}
-      <div className="absolute top-[10%] left-[10%] w-[60px] h-[60px] flex items-center justify-center rounded-full border-8 border-blue-900 animate-spin-reverse">
-        <div className="w-4 h-4 bg-blue-900 rounded-full"></div>
-      </div>
-
-      {/* Add more gears as needed */}
-    </div>
+    </section>
   );
 };
 
