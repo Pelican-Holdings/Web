@@ -148,23 +148,30 @@ const BigSlider = () => {
                   }
                   {index === 2 && 
                     <>
-                      Powering Industries with
-                      <span className="text-secondary"> Efficiency</span>
+                      <span>Powering Industries with</span>
+                      <br />
+                      <span className="text-secondary">Efficiency</span>
                     </>
                   }
                   {index === 3 && 
                     <>
-                      <span className="text-secondary">Streamlining </span>Supply Chain Solutions
+                      <span className="text-secondary">Streamlining </span><span>Supply Chain</span>
+                      <br />
+                      <span>Solutions</span>
                     </>
                   }
                   {index === 4 && 
                     <>
-                      <span className="text-secondary">Connecting </span>Global Markets Efficiently
+                      <span className="text-secondary">Connecting </span><span>Global Markets</span>
+                      <br />
+                      <span>Efficiently</span>
                     </>
                   }
                   {index === 5 && 
                     <>
-                      <span className="text-secondary">Explore </span>the World with Ease
+                      <span className="text-secondary">Explore </span><span>the World with</span>
+                      <br />
+                      <span>Ease</span>
                     </>
                   }
                 </h2>
