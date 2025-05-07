@@ -14,7 +14,7 @@ const ContactInfo = () => {
         <div className="flex flex-row gap-4 md:gap-6 items-center">
           <div>
             <Image
-              src="https://res.cloudinary.com/midefulness/image/upload/v1699882937/Pelican%20Holdings/contactUs/phone-call_ln6gul.png"
+              src="https://res.cloudinary.com/ddhygfpyk/image/upload/v1746646638/location_hwes2a.png"
               alt="logo"
               width={48}
               height={48}
@@ -29,7 +29,7 @@ const ContactInfo = () => {
         <div className="flex flex-row gap-4 md:gap-6 items-center">
           <div>
             <Image
-              src="https://res.cloudinary.com/midefulness/image/upload/v1699882936/Pelican%20Holdings/contactUs/mail_wksglz.png"
+              src="https://res.cloudinary.com/ddhygfpyk/image/upload/v1746646637/mail_lvsdxu.png"
               alt="logo"
               width={48}
               height={48}
@@ -44,7 +44,7 @@ const ContactInfo = () => {
         <div className="flex flex-row gap-4 md:gap-6 items-center">
           <div className="justify-center">
             <Image
-              src="https://res.cloudinary.com/midefulness/image/upload/v1699882938/Pelican%20Holdings/contactUs/location_ktfryd.png"
+              src="https://res.cloudinary.com/ddhygfpyk/image/upload/v1746646639/phone-call_jipcju.png"
               alt="logo"
               width={48}
               height={48}

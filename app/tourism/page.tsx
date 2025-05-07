@@ -10,7 +10,8 @@ const page = () => {
   return (
     <div className="mb-8">
       <HeroExternalPage
-        imageUrl="https://res.cloudinary.com/midefulness/image/upload/v1735576497/Pelican%20Holdings/tourism/Background_Image_nhuci7.jpg"
+        imageUrl="https://res.cloudinary.com/ddhygfpyk/image/upload/v1746650855/2122_tfw6x1.jpg"
+        // imageUrl="https://res.cloudinary.com/ddhygfpyk/image/upload/v1746647929/Background_Image_u6pwey.jpg"
         content="Tourism"
       />
 

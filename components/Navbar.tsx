@@ -21,7 +21,7 @@ const Navbar = () => {
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
         <Image
-          src="https://res.cloudinary.com/midefulness/image/upload/v1699883021/Pelican%20Holdings/navbar/logo_yz39su.png"
+          src="https://res.cloudinary.com/ddhygfpyk/image/upload/v1746646458/logo_phwf78.png"
           alt="logo"
           width={74}
           height={25}
@@ -30,7 +30,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Icon */}
       <Image
-        src="https://res.cloudinary.com/midefulness/image/upload/v1699883053/Pelican%20Holdings/navbar/menu_pbjoi5.svg"
+        src="https://res.cloudinary.com/ddhygfpyk/image/upload/v1746646623/menu_ryjbgr.svg"
         alt="menu"
         width={32}
         height={32}
@@ -88,7 +88,7 @@ const Navbar = () => {
         <Button
           type="button"
           title="Contact Us"
-          icon="https://res.cloudinary.com/midefulness/image/upload/v1699882960/Pelican%20Holdings/navbar/telephone_tv2kw9.png"
+          icon="https://res.cloudinary.com/ddhygfpyk/image/upload/v1746646635/telephone_rnvywt.png"
           variant="btn_dark_blue"
           value="contact"
         />
