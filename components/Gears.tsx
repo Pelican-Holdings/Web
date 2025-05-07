@@ -21,7 +21,7 @@ const Gears = () => {
         <div className="relative w-full h-full">
           <Fade cascade damping={0.1} triggerOnce>
             <Image
-              src="https://res.cloudinary.com/midefulness/image/upload/v1735932747/Pelican%20Holdings/Slider/A4_-_3_vvrzbl.png"
+              src="https://res.cloudinary.com/ddhygfpyk/image/upload/v1746647664/A4_-_3_vcimqa.png"
               alt="Descriptive Alt Text"
               layout="fill"
               className="object-contain"

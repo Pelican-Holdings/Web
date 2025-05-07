@@ -5,7 +5,7 @@ const AboutTours = () => {
         <section className="py-10 bg-gray-100 text-gray-900">
         <div className="max-w-5xl mx-auto flex flex-col items-center gap-8 lg:flex-row lg:items-start">
           <Image
-            src="https://res.cloudinary.com/midefulness/image/upload/v1735580529/Untitled_design_sumxn3.png"
+            src="https://res.cloudinary.com/ddhygfpyk/image/upload/v1746649907/Group_36_f4sefo.png"
             alt="Pelican Ceylon Tours Logo"
             width={120}
             height={120}

@@ -17,7 +17,7 @@ const page = () => {
   return (
     <div className="mb-8">
       <HeroExternalPage
-        imageUrl="https://res.cloudinary.com/midefulness/image/upload/v1699721775/Pelican%20Holdings/27322_k70y4t.jpg"
+        imageUrl="https://res.cloudinary.com/ddhygfpyk/image/upload/v1746655681/2151307728_n23w3w.jpg"
         content="Our Products"
       />
       {/* <div className="overflow-hidden bg-feature-product-bg bg-center bg-no-repeat"> */}

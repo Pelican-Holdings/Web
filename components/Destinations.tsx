@@ -2,10 +2,10 @@ import Image from 'next/image';
 
 const Destinations = () => {
     const destinations = [
-      { name: 'Coastal Escapes', image: 'https://res.cloudinary.com/midefulness/image/upload/v1735591016/image_8_xuujbr.png' },
-      { name: 'Natural Wonders', image: 'https://res.cloudinary.com/midefulness/image/upload/v1735591002/image_9_nrsu8p.png' },
-      { name: 'Cultural Explorations', image: 'https://res.cloudinary.com/midefulness/image/upload/v1735590992/image_wjzg9o.png' },
-      { name: 'Eco-Friendly Adventures', image: 'https://res.cloudinary.com/midefulness/image/upload/v1735590992/image_wjzg9o.png' },
+      { name: 'Coastal Escapes', image: 'https://res.cloudinary.com/ddhygfpyk/image/upload/v1746650231/image_8_ghjoql.png' },
+      { name: 'Natural Wonders', image: 'https://res.cloudinary.com/ddhygfpyk/image/upload/v1746650236/image_9_ebzcla.png' },
+      { name: 'Cultural Explorations', image: 'https://res.cloudinary.com/ddhygfpyk/image/upload/v1746650410/31618_vtzpig.jpg' },
+      { name: 'Eco-Friendly Adventures', image: 'https://res.cloudinary.com/ddhygfpyk/image/upload/v1746650227/image_widtzc.png' },
     ];
   
     return (

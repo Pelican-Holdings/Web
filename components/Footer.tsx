@@ -12,7 +12,7 @@ const Footer = () => {
           <Link href="/" className="mb-10">
             {/* <Image src="hilink-logo.svg" alt="logo" width={74} height={29}/> */}
             <Image
-              src="https://res.cloudinary.com/midefulness/image/upload/v1699883021/Pelican%20Holdings/navbar/logo_yz39su.png"
+              src="https://res.cloudinary.com/ddhygfpyk/image/upload/v1746646458/logo_phwf78.png"
               alt="logo"
               width={74}
               height={29}
@@ -65,7 +65,7 @@ const Footer = () => {
 
         <div className="border bg-gray-20" />
         <p className="regular-14 w-full text-center text-gray-30">
-          2024 Pelican Holdings | <Link href="https://yohan-portfolio.netlify.app/" className="medium-14">CodingIdol</Link> | All rights reserved
+          2025 Pelican Holdings | <Link href="https://yohan-portfolio.netlify.app/" className="medium-14">CodingIdol</Link> | All rights reserved
         </p>
       </div>
     </footer>

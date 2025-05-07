@@ -21,7 +21,7 @@ const CampSite = ({
         <div className="flexCenter gap-4">
           <div className="rounded-full bg-secondary p-4">
             <Image
-              src="https://res.cloudinary.com/midefulness/image/upload/v1699983877/Pelican%20Holdings/road_ylcvq7.png"
+              src="https://res.cloudinary.com/ddhygfpyk/image/upload/v1746653305/worker_mezf40.png"
               alt="map"
               width={28}
               height={28}
@@ -84,7 +84,7 @@ const Camp = () => {
             reality.
           </p>
           <Image
-            src="https://res.cloudinary.com/midefulness/image/upload/v1699907290/Pelican%20Holdings/quote_nvgrz6.svg"
+            src="https://res.cloudinary.com/ddhygfpyk/image/upload/v1746646628/quote_v1ppgl.svg"
             alt="quote"
             width={186}
             height={219}

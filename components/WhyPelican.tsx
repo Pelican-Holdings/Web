@@ -2,11 +2,11 @@ import Image from 'next/image';
 
 const WhyPelican = () => {
   const features = [
-    { icon: 'https://res.cloudinary.com/midefulness/image/upload/v1735576496/Pelican%20Holdings/tourism/money_hcyvxc.png', label: 'Affordable Pricing' },
-    { icon: 'https://res.cloudinary.com/midefulness/image/upload/v1735576496/Pelican%20Holdings/tourism/itinerary_u2eiqo.png', label: 'Tailored Itineraries' },
-    { icon: 'https://res.cloudinary.com/midefulness/image/upload/v1735576496/Pelican%20Holdings/tourism/van_bjwnet.png', label: 'Transportation' },
-    { icon: 'https://res.cloudinary.com/midefulness/image/upload/v1735576496/Pelican%20Holdings/tourism/best-customer-experience_rlwmn0.png', label: 'Local Expertise' },
-    { icon: 'https://res.cloudinary.com/midefulness/image/upload/v1735576496/Pelican%20Holdings/tourism/hotel_1_gvseix.png', label: 'Accommodation' },
+    { icon: 'https://res.cloudinary.com/ddhygfpyk/image/upload/v1746648028/money_tlcntn.png', label: 'Affordable Pricing' },
+    { icon: 'https://res.cloudinary.com/ddhygfpyk/image/upload/v1746648031/itinerary_gmc6n4.png', label: 'Tailored Itineraries' },
+    { icon: 'https://res.cloudinary.com/ddhygfpyk/image/upload/v1746648028/van_jbkdws.png', label: 'Transportation' },
+    { icon: 'https://res.cloudinary.com/ddhygfpyk/image/upload/v1746648027/best-customer-experience_lvljtr.png', label: 'Local Expertise' },
+    { icon: 'https://res.cloudinary.com/ddhygfpyk/image/upload/v1746648030/hotel_1_rrgzig.png', label: 'Accommodation' },
   ];
 
   return (

@@ -15,7 +15,7 @@ import {
 
 const page = () => {
   const imageUrls = [
-    "https://res.cloudinary.com/midefulness/image/upload/v1699297490/Pelican%20Holdings/IMG_20200829_092654-e1598722337701_wqbqnx.jpg",
+    "https://res.cloudinary.com/ddhygfpyk/image/upload/v1746650978/image_19_zk9o6l.png",
     "/backgrounds/our-services.jpg",
     "/backgrounds/our-services.jpg",
     "/backgrounds/our-services.jpg",
@@ -23,7 +23,7 @@ const page = () => {
   return (
     <div>
       <HeroExternalPage
-        imageUrl="https://res.cloudinary.com/midefulness/image/upload/v1699723800/Pelican%20Holdings/construction-workers-yellow-vests-vests-raise-their-hands-air_vntuhp.jpg"
+        imageUrl="https://res.cloudinary.com/ddhygfpyk/image/upload/v1746651370/16234_1_w8kdh4.jpg"
         content="About Us"
       />
       <div className="padding-container mx-auto pt-12 pb-4 md:pt-16 md:mt-2 md:pb-16 relative">

@@ -8,7 +8,7 @@ const page = () => {
   return (
     <div>
       <HeroExternalPage
-        imageUrl="https://res.cloudinary.com/midefulness/image/upload/v1699882902/Pelican%20Holdings/backgrounds/4947_othmsy.jpg"
+        imageUrl="https://res.cloudinary.com/ddhygfpyk/image/upload/v1746651173/night-construction-site_gmpf2b.jpg"
         content="Service Page"
       />
       <div className="padding-container mx-auto xs:pt-4 py-8 relative">
@@ -38,7 +38,7 @@ const page = () => {
             <div className="hidden md:block md:basis-2/5 gap-8">
               <div className="border-4 border-white overflow-hidden bg-clip-content pr-10">
                 <img
-                  src="https://res.cloudinary.com/midefulness/image/upload/v1699297484/Pelican%20Holdings/8-scaled_qgxfk7.jpg"
+                  src="https://res.cloudinary.com/ddhygfpyk/image/upload/v1746650978/image_19_zk9o6l.png"
                   alt="Image 1"
                   className="w-full h-full 3xl:h-80 object-cover object-center rounded-lg shadow-lg hover:shadow-xl"
                   placeholder="blur"
@@ -47,7 +47,7 @@ const page = () => {
               </div>
               <div className="border-4 border-white overflow-hidden bg-clip-content py-10 pr-10">
                 <img
-                  src="https://res.cloudinary.com/midefulness/image/upload/v1699297484/Pelican%20Holdings/8-scaled_qgxfk7.jpg"
+                  src="https://res.cloudinary.com/ddhygfpyk/image/upload/v1746650973/IMG_20200829_092654_mtkosy.jpg"
                   alt="Image 1"
                   className="w-full h-full 3xl:h-80 object-cover object-center rounded-lg shadow-lg hover:shadow-xl"
                   placeholder="blur"
